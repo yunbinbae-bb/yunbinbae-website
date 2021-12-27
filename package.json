@@ -2,7 +2,7 @@
   "name": "yunbinbae",
   "version": "1.0.0",
   "description": "yunbinbae's website",
-  "main": "index.html",
+  "master": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.htm --dist-dir ./dist"
@@ -12,5 +12,7 @@
     "url": "git"
   },
   "author": "Yunbin Bae",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "script.js",
+  "keywords": []
 }
