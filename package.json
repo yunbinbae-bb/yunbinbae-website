@@ -11,9 +11,5 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.0.1"
-  },
-  "dependencies": {
-    "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.13.9"
   }
 }
