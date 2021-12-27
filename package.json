@@ -5,12 +5,12 @@
   "master": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
   },
   "author": "Yunbin Bae",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.1"
+    "parcel": "latest"
   },
   "dependencies": {
     "fractional": "^1.0.0",
