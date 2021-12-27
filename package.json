@@ -13,7 +13,7 @@
     "parcel": "^2.0.1"
   },
   "dependencies": {
-    "core-js ": "^3.6.5",
+    // "core-js ": "^3.6.5",
     "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.9"
   }
