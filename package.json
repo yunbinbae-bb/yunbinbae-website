@@ -10,7 +10,7 @@
   "author": "Yunbin Bae",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "latest"
+    "parcel": "^2.0.1"
   },
   "dependencies": {
     "fractional": "^1.0.0",
