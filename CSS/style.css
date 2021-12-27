@@ -1,0 +1,227 @@
+/* ************************************ */
+/* HERO SECTION */
+/* ************************************ */
+
+/* hero 화면 꽉 채우고 싶으면 이거 다시 활성화하기 */
+.section-hero-primary {
+  padding: 4.8rem 0 9.6rem;
+}
+
+.hero-primary {
+  text-a
+  padding: 9.6rem 0 4.8rem 0;
+  margin: 0 0 0 9.2rem;
+  margin-bottom: 9.6rem;
+}
+
+.hero-profile-img {
+  width: 60%;
+}
+
+.hero-title {
+  font-size: 9.8rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+  margin-bottom: 3.2rem;
+}
+
+
+.header-btn:link,
+.header-btn:visited {
+  color: #FFE45E;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.08s ease-in;
+}
+
+.header-btn:hover,
+.header-btn:active {
+  color: #FF6392;
+  cursor: pointer;
+  transition: all 0.08s ease-in;
+}
+
+.intro {
+  padding-right: 6.4rem;
+}
+
+/* .hero-primary-2 {
+    position: absolute;
+    혹은 , translate()
+} */
+
+.hero-details {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.yunbin-bae:link,
+.yunbin-bae:visited {
+  color: #7FC8F8;
+  text-decoration: none;
+  transition: all 0.08s ease-in;
+}
+
+.yunbin-bae:hover,
+.yunbin-bae:active {
+  color: #FF6392;
+}
+
+.product-designer:link,
+.product-designer:visited {
+  color: #7FC8F8;
+  text-decoration: none;
+  transition: all 0.08s ease-in;
+}
+
+.product-designer:hover,
+.product-designer:active {
+  color: #FF6392;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+}
+
+.hero-location {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.location-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #F9F9F9;
+}
+/* .arrow-icon {
+    display: block;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* ************************************ */
+/* ME & WORK SECTION */
+/* ************************************ */
+
+/* ABOUT ME SECTION */
+
+.me-description {
+  margin-bottom: 3.2rem;
+}
+
+.section-me {
+  padding: 9.6rem 0;
+  margin: 0 9.2rem;
+}
+
+/* WORK EXPERIENCE SECTION */
+
+.work-description {
+  margin-bottom: 3.2rem;
+}
+
+/* ************************************ */
+/* MY GOAL SECTION */
+/* ************************************ */
+
+.section-my-goal {
+  display: flex;
+  gap: 40px;
+  padding: 5%;
+  margin-bottom: 8rem;
+  background-color: #a69082;
+  color: #F9F9F9;
+}
+
+.my-goal-quotation {
+  font-size: 10rem;
+}
+
+.my-goal-description {
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 5rem;
+  padding: 6.4rem 1.6rem;
+}
+
+/* ************************************ */
+/* PROJECTS SECTION */
+/* ************************************ */
+
+.project-name {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3.2rem;
+  color: #FFE45E;
+  padding-bottom: 1.2rem;
+}
+
+.project-abstract1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4;
+  padding-bottom: 0.8rem;
+}
+
+.project-abstract2 {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* .logo img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    top: 10%;
+} */
+
+.heading-secondary {
+  /* font-family: 'Proza Libre', sans-serif; */
+  font-weight: 900;
+  font-size: 3.6rem;
+  margin: auto 9.6rem;
+  padding: auto 3.6rem;
+}
+
+.flexbox {
+  display: flex;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px 1px #3D3D3D;
+  justify-content: space-between;
+  padding: 3.6rem;
+  border-radius: 2.4rem;
+  margin-bottom: 9.6rem;
+  margin: 0 9.6rem;
+}
+
+.flexbox-secondary {
+  display: flex;
+  text-decoration: none;
+  /* justify-content: space-around; */
+  padding-top: 3.6rem;
+  border-radius: 2.4rem;
+  margin-bottom: 9.6rem;
+}
+
+.flexbox:hover {
+  transform: scale(1.01);
+  transition: all 0.08s ease-in;
+}
+
+.link:link,
+.link:visited {
+  color: #F9F9F9;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.08s ease-in;
+}
+
+.link:hover,
+.link:active {
+  color: #FF6392;
+  text-decoration: none;
+}

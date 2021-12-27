@@ -1,0 +1,16 @@
+{
+  "name": "yunbinbae",
+  "version": "1.0.0",
+  "description": "yunbinbae's website",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "author": "Yunbin Bae",
+  "license": "ISC"
+}

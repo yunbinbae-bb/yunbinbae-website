@@ -1,0 +1,25 @@
+.content {
+  margin: 0 9.6rem;
+}
+
+.project-maintitle {
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+.project-subtitle {
+  font-size: 2.4rem;
+}
+
+.content-overview {
+  display: block;
+  margin-bottom: 3.6rem;
+}
+
+.content-overview-details {
+  display: flex;
+}
+
+.content-scan {
+  font-size: 2.4rem;
+}

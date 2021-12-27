@@ -1,0 +1,72 @@
+.portfolio {
+  margin: 0 9.6rem;
+}
+
+.heading-secondary {
+  /* font-family: 'Sigmar One', cursive; */
+  font-size: 2.4rem;
+  color: #7fc8f8;
+}
+
+.portfolio-detail {
+  margin-bottom: 9.6rem;
+}
+
+.portfolio-projects {
+  padding: 12.8rem 0;
+}
+
+.project-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3.2rem;
+  color: #ffe45e;
+  padding-bottom: 0.8rem;
+}
+
+.project-subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.4rem;
+  color: #7fc8f8;
+  padding-bottom: 1.2rem;
+}
+
+.project-abstract1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4;
+  padding-bottom: 0.8rem;
+}
+
+.project-abstract2 {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.project-box {
+  display: flex;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.06);
+  justify-content: space-between;
+  padding: 3.6rem;
+  border-radius: 2.4rem;
+  margin-bottom: 9.6rem;
+}
+
+.project-box:hover {
+  transform: scale(1.01);
+}
+
+.link:link,
+.link:visited {
+  color: #f9f9f9;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+.link:hover,
+.link:active {
+  color: #ff6392;
+  text-decoration: none;
+}

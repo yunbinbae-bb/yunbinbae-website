@@ -1,0 +1,59 @@
+.blog {
+  margin: 0 9.2rem;
+}
+
+.project-name {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 3.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.project-info {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.project-box {
+  display: flex;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.06);
+  justify-content: space-between;
+  padding: 3.6rem;
+  border-radius: 2.4rem;
+  margin-bottom: 9.6rem;
+}
+
+.project-box:hover {
+  transform: scale(1.01);
+}
+
+.link:link,
+.link:visited {
+  color: #64564e;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+.link:hover,
+.link:active {
+  color: #a69082;
+  text-decoration: none;
+}
+
+/* .lab-projects {
+  padding: 12.8rem 0;
+}
+
+
+.lab-project {
+  box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.lab-project:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0,0,0,0.06);
+} */

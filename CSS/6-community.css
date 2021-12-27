@@ -1,0 +1,33 @@
+.community {
+  margin: 0 9.6rem;
+}
+
+.community-detail {
+  margin-bottom: 9.6rem;
+}
+
+.community-photos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 6.4rem;
+  padding: 0 0 12.8rem 0;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.community-photo {
+  text-decoration: none;
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.04); */
+  padding: 0.8rem;
+  border-radius: 1.2rem;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.item img:hover {
+  transform: scale(1.1);
+}
