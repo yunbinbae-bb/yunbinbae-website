@@ -5,10 +5,11 @@
   "master": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build"
+    "build": "parcel build —dist-dir ./dist"
   },
   "author": "Yunbin Bae",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.1"}
+    "parcel": "^2.0.1"
+  }
 }
