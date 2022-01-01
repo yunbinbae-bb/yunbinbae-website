@@ -231,7 +231,7 @@ p {
 .btn-mobile-nav {
   border: none;
   background-color: #2d2d2d;
-  background-cursor: pointer;
+  /* background-cursor: pointer; */
   display: none;
 }
 
