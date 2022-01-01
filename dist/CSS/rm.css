@@ -3,12 +3,17 @@
 }
 
 .project-maintitle {
-  font-size: 3.6rem;
+  font-size: 5.2rem;
   font-weight: 800;
 }
 
 .project-subtitle {
-  font-size: 2.4rem;
+  font-size: 3.6rem;
+}
+
+.pdf-button {
+  display: block;
+  padding: 3rem;
 }
 
 .content-overview {
@@ -16,10 +21,10 @@
   margin-bottom: 3.6rem;
 }
 
-.content-overview-details {
-  display: flex;
+.overview-title {
+  font-size: 2.4rem;
 }
 
-.content-scan {
-  font-size: 2.4rem;
+.overview-details {
+  margin-bottom: 2.4rem;
 }
