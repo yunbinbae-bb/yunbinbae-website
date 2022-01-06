@@ -29,16 +29,17 @@
 
 .link:link,
 .link:visited {
-  color: #64564e;
+  color: #ffe45e;
+  cursor: pointer;
   text-decoration: none;
-  font-weight: bold;
-  transition: all 0.2s ease-in;
+  transition: all 0.08s ease-in;
 }
 
 .link:hover,
 .link:active {
-  color: #a69082;
-  text-decoration: none;
+  color: #ff6392;
+  cursor: pointer;
+  transition: all 0.08s ease-in;
 }
 
 /* .lab-projects {
