@@ -1,9 +1,39 @@
 .profile-img {
   display: block;
-  align-items: center;
-  width: 80%;
+  margin-right: 6.4rem;
 }
 
 .main {
   margin: 0 12.8rem;
+}
+
+.profile-content {
+  display: flex;
+  margin-bottom: 8rem;
+}
+
+.interests-title {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.interests-contents {
+  margin-bottom: 8rem;
+  display: flex;
+}
+
+.music-cover {
+  width: 14rem;
+  height: 14rem;
+  background-size: cover;
+  border-radius: 6px;
+  margin-right: 3.2rem;
+}
+
+.book-cover {
+  width: 14rem;
+  height: 24rem;
+  background-size: cover;
+  border-radius: 6px;
+  margin-right: 3.2rem;
 }
