@@ -1,6 +1,20 @@
+/* setting */
+
 .content {
   margin: 0 9.6rem;
 }
+
+.logo {
+  display: block;
+  width: 18%;
+}
+
+.footer-logo {
+  display: block;
+  width: 35%;
+}
+
+/* content */
 
 .project-maintitle {
   font-size: 5.2rem;

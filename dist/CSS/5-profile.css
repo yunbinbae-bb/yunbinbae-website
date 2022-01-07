@@ -3,6 +3,11 @@
   margin-right: 6.4rem;
 }
 
+.profile-img-source {
+  font-size: 1.2rem;
+  color: #575755;
+}
+
 .section {
   margin: 0 12.8rem;
 }
@@ -50,9 +55,9 @@
   font-size: 1.4rem;
 }
 
-.point-background {
+/* .point-background {
   background-color: #784f31;
-}
+} */
 
 img {
   display: block;

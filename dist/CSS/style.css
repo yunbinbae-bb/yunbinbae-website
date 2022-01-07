@@ -18,6 +18,11 @@
   width: 18%;
 }
 
+.footer-logo {
+  display: block;
+  width: 35%;
+}
+
 .yunbin-bae {
   position: absolute;
   top: 120px;
