@@ -285,6 +285,7 @@ h5 {
   font-weight: 500;
   margin-bottom: 2.4rem;
   text-transform: uppercase;
+  color: #d4d4cb;
 }
 
 .footer-contact {
@@ -298,6 +299,7 @@ h5 {
   font-style: normal;
   font-size: 1.2rem;
   line-height: 1.6rem;
+  color: #f9f9f9;
 }
 
 .contact-icon {
@@ -345,6 +347,7 @@ h5 {
 .copyright-name,
 .copyright-belief {
   font-size: 1.2rem;
+  color: #f9f9f9;
 }
 
 .copyright-name {

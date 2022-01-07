@@ -193,6 +193,7 @@
 .project-name-title {
   display: block;
   margin-bottom: 2.4rem;
+  font-weight: 800;
 }
 
 .project-name:link,
