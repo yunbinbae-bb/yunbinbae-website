@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Baskerville Adobe Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/xpv3nqu.css">
+    <!-- Proza Libre Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&gidisplay=swap"
       rel="stylesheet"
     />
+    
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -74,7 +79,7 @@
     </header>
 
     <main class="main">
-      <container class="profile-content">
+      <section class="section profile-content">
         <div>
           <img
             src="/dist/assets/images/profile_monalisa.jpg"
@@ -136,104 +141,135 @@
             2022 resolutions!
           </p>
         </div>
-      </container>
+      </section>
 
-      <container class="profile-interests">
-        <div>
-          <h2 class="interests-title">
-            Some amazing albums I’ve been jamming to:
-          </h2>
-          <div class="interests-contents">
-            <div class="interests-content">
-              <img
-                src="/dist/assets/images/profile-music-jheneaiko.jpg"
-                alt="Jhene Aiko's Souled Out"
-                class="music-cover"
-              />
-              <div class="music-title">
-                <p>Souled Out</p>
-                <p>Jhene Aiko</p>
-              </div>
+      <section class="section interests-music">
+        <h2 class="interests-title">
+          Some amazing albums I’ve been jamming to:
+        </h2>
+        <div class="interests-contents">
+          <div class="interests-content">
+            <img
+              src="/dist/assets/images/profile-music-jheneaiko.jpg"
+              alt="Jhene Aiko's Souled Out"
+              class="music-cover"
+            />
+            <div class="music">
+              <p class="music-title">Souled Out</p>
+              <p class="music-artist">Jhené Aiko</p>
             </div>
-            <div class="interests-content">
-              <img
-                src="/dist/assets/images/profile-music-epikhigh.jpeg"
-                alt="Epik High's Remapping the Human Soul"
-                class="music-cover"
-              />
-              <div class="music-title">
-                <p>Remapping the Human Soul</p>
-                <p>Epik High</p>
-              </div>
+          </div>
+          <div class="interests-content">
+            <img
+              src="/dist/assets/images/profile-music-epikhigh.jpeg"
+              alt="Epik High's Remapping the Human Soul"
+              class="music-cover"
+            />
+            <div class="music">
+              <p class="music-title">Remapping the Human <br />Soul</p>
+              <p class="music-artist">Epik High</p>
             </div>
-            <div class="interests-content">
-              <img
-                src="/dist/assets/images/profile-music-kingprincess.jpeg"
-                alt="King Princess's Cheap Queen"
-                class="music-cover"
-              />
-              <div>
-                <p>Cheap Queen</p>
-                <p>King Princess</p>
-              </div>
+          </div>
+          <div class="interests-content">
+            <img
+              src="/dist/assets/images/profile-music-kingprincess.jpeg"
+              alt="King Princess's Cheap Queen"
+              class="music-cover"
+            />
+            <div class="music">
+              <p class="music-title">Cheap Queen</p>
+              <p class="music-artist">King Princess</p>
             </div>
-            <div class="interests-content">
-              <img
-                src="/dist/assets/images/profile-music-blur.jpg"
-                alt="Blur's Thirteen"
-                class="music-cover"
-              />
-              <div>
-                <p>13</p>
-                <p>Blur</p>
-              </div>
+          </div>
+          <div class="interests-content">
+            <img
+              src="/dist/assets/images/profile-music-blur.jpg"
+              alt="Blur's Thirteen"
+              class="music-cover"
+            />
+            <div class="music">
+              <p class="music-title">13</p>
+              <p class="music-artist">Blur</p>
             </div>
-            <div class="interests-content">
-              <img
-                src="/dist/assets/images/profile-music-6lack.jpg"
-                alt="Black's Free Black"
-                class="music-cover"
-              />
-              <div>
-                <p>FREE 6LACK</p>
-                <p>6LACK</p>
-              </div>
+          </div>
+          <div class="interests-content">
+            <img
+              src="/dist/assets/images/profile-music-6lack.jpg"
+              alt="Black's Free Black"
+              class="music-cover"
+            />
+            <div class="music">
+              <p class="music-title">FREE 6LACK</p>
+              <p class="music-artist">6LACK</p>
             </div>
           </div>
         </div>
-        <div>
-          <h2 class="interests-title">
-            Some inspiring books I’ve read lately:
-          </h2>
+      </section>
+
+      <section class="point-background">
+      <div class="section interests-book">
+          <h2 class="interests-title">Some inspiring books I’ve read lately:</h2>
           <div class="interests-contents">
-            <img
+            <div class="interests-content">
+              <img
               src="/dist/assets/images/profile-book-loverDiscourse.jpeg"
               alt="Roland Barthes's A Lover’s Discourse"
               class="book-cover"
-            />
-            <img
+              />
+            <div class="book">
+              <p class="book-title">A Lover’s Discourse</p>
+              <p class="book-author">Roland Barthes</p>
+            </div>
+            </div>
+            <div class="interests-content">
+              <img
               src="/dist/assets/images/profile-book-linchpin.jpeg"
               alt="Seth Godin's Linchpin"
               class="book-cover"
-            />
-            <img
+              />
+              <div>
+                <p class="book-title">Linchpin</p>
+                <p class="book-author">Seth Godin</p>
+              </div>
+            </div>
+            <div class="interests-content">
+              <img
               src="/dist/assets/images/profile-book-makesmart.png"
               alt="Don Norman's Things that Make Us Smart"
               class="book-cover"
             />
+            <div>
+              <p class="book-title">Things that Make Us <br />Smart</p>
+              <p class="book-author">Don Norman</p>
+            </div>
+          </div>
+          <div class="interests-content">
             <img
-              src="/dist/assets/images/profile-book-escapefromfreedom.jpeg"
-              alt="Erich Fromm's Escape from Freedom"
-              class="book-cover"
-            />
+            src="/dist/assets/images/profile-book-escapefromfreedom.jpeg"
+            alt="Erich Fromm's Escape from Freedom"
+            class="book-cover"
+          />
+          <div>
+            <p class="book-title">Escape from Freedom</p>
+            <p class="book-author">Erich Fromm</p>
+          </div>
+          </div>
+          <div class="interests-content">
             <img
-              src="/dist/assets/images/profile-book-habit.jpeg"
-              alt="Charles Duhigg's the Power of Habit"
-              class="book-cover"
-            />
+            src="/dist/assets/images/profile-book-habit.jpeg"
+            alt="Charles Duhigg's the Power of Habit"
+            class="book-cover"
+          />
+          <div>
+            <p class="book-title">The Power of Habit</p>
+            <p class="book-author">Charles Duhigg</p>
+          </div>
+          </div>
           </div>
         </div>
-        <!-- <div>
+      </section>
+      </div>
+      <!-- <div>
           <h2 class="interests-title">
             Some amazing albums I’ve been jamming to:
           </h2>
@@ -245,7 +281,6 @@
             <img src="#" alt="#" />
           </div>
         </div> -->
-      </container>
     </main>
 
     <footer class="footer">

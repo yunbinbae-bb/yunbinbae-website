@@ -6,30 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Yunbin Bae is a UX researcher and designer based in Seoul."
+      content="Yunbin Bae does UX Research and Design."
     />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSN022K1KG"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BSN022K1KG"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() {
+        dataLayer.push(arguments);
+      }
       gtag('js', new Date());
 
       gtag('config', 'G-BSN022K1KG');
     </script>
-    
+
     <link rel="icon" href="assets/images/favicon.png" />
     <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
-
+    <link rel="stylesheet" href="https://use.typekit.net/xpv3nqu.css" />
+    <!-- Baskerville Adobe Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/xpv3nqu.css" />
+    <!-- Proza Libre Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-      rel="stylesheet" 
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&gidisplay=swap"
       rel="stylesheet"
@@ -62,12 +63,12 @@
             <a href="2-lab.html" class="main-nav-link header-link">Lab</a>
           </li>
           <li>
-            <a href="3-writings.html" class="main-nav-link header-link">Writings</a>
+            <a href="3-writings.html" class="main-nav-link header-link"
+              >Writings</a
+            >
           </li>
           <li>
-            <a href="4-love.html" class="main-nav-link header-link"
-              >Love</a
-            >
+            <a href="4-love.html" class="main-nav-link header-link">Love</a>
           </li>
           <li>
             <a href="5-profile.html" class="main-nav-link header-link"
@@ -75,10 +76,10 @@
             >
           </li>
           <li>
-            <a 
-            href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing" 
-            target="_blank"
-            class="main-nav-link header-link"
+            <a
+              href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing"
+              target="_blank"
+              class="main-nav-link header-link"
               >Resume</a
             >
           </li>
@@ -90,18 +91,27 @@
         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
       </button>
     </header>
-
+    <main>
       <section class="section-hero-primary">
+        <div>
+          <img
+            src="/dist/assets/images/header-home-large.png"
+            alt="hands"
+            class="header-img"
+          />
+        </div>
         <div class="hero-primary">
           <div class="intro">
             <p class="hero-title">
               <a href="4-profile.html" class="yunbin-bae">Yunbin Bae</a>
               does
               <a href="1-portfolio.html" class="product-designer"
-                >UX Design / Research</a
+                >UX Research / Design</a
               >
               to
-              <a href="1-portfolio.html" class="header-btn">humanize technology</a>
+              <a href="1-portfolio.html" class="header-btn"
+                >humanize technology</a
+              >
               and
               <a href="6-community.html" class="header-btn"
                 >build community engagement</a
@@ -109,27 +119,50 @@
               by figuring out problems rooted in harmful designs.
             </p>
             <div class="hero-location">
-              <ion-icon
-                class="location-icon"
-                name="location-outline"
-              ></ion-icon>
-              <p>currently in Seoul, Korea</p>
+              <ion-icon class="location-icon" name="compass-outline"></ion-icon>
+              <p class="location-details">currently in Seoul, Korea</p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- <section class="section-hero-secondary">
+      <!-- <section class="content section-hero-secondary">
         <p class="hero-secondary">
           #feminism #CriticalStudies #EthnographicResearch 
         </p>
       </section> -->
 
-      <section class="section-portfolio">
-        <h class="heading-secondary">UX Projects • • • </h>
-        <a href="rm.html" class="project-box link flexbox">
-          <div class="project-content">
+      <section class="content section-portfolio">
+        <h class="heading-secondary">UX Projects.</h>
+        <div class="project-content">
+          <a href="rm.html">
             <h1 class="project-name">Relief's Map</h1>
+          </a>
+          <div class="project-infos">
+            <p class="project-info">
+              A UX Case Study on how the spy camera detector application,
+              Relief's Map, offers vague means to understand women's safety from
+              spy cameras in Korea, and even has the potential to abuse women’s
+              fear and learned helplessness on spy cameras. To design for
+              empowering marginalized people, I urge the importance of
+              acknowledging the complexity of oppressed group's social
+              psychology that centers around fear, learned helplessness, and
+              indignation.
+            </p>
+
+            <p class="project-info">Individual Project [Oct 2021~]</p>
+            <p class="project-info">
+              UX Research, Ideation, UXUI Design, Interaction Design, User
+              Testing
+            </p>
+          </div>
+        </div>
+        <div class="project-img">
+          <img src="#" alt="project image" width="70%" />
+        </div>
+        <a href="#" class="project-box link flexbox">
+          <div class="project-content">
+            <h1 class="project-name">Case Study</h1>
             <div class="project-info">
               <p class="project-abstract1">
                 A UX Case Study on how the spy camera detector application,
@@ -153,46 +186,22 @@
             <img src="#" alt="project image" width="70%" />
           </div>
         </a>
-        <a href="#" class="project-box link flexbox">
-          <div class="project-content">
-            <h1 class="project-name">Case Study</h1>
-            <div class="project-info">
-              <p class="project-abstract1">
-                A UX Case Study on how the spy camera detector application,
-                Relief's Map, offers vague means to understand women's safety from
-                spy cameras in Korea, and even has the potential to abuse women’s
-                fear and learned helplessness on spy cameras. To design for
-                empowering marginalized people, I urge the importance of
-                acknowledging the complexity of oppressed group's social
-                psychology that centers around fear, learned helplessness, and
-                indignation.
-              </p>
-              <p class="project-abstract2">INDIVIDUAL PROJECT</p>
-              <p class="project-abstract2">DURATION: Oct ~ Dec 2021</p>
-              <p class="project-abstract2">
-                UX Research, Ideation, UXUI Design, Interaction Design, User
-                Testing
-              </p>
-            </div>
-          </div>
-          <div class="project-img">
-            <img src="#" alt="project image" width="70%" />
-          </div>
-        </a>
       </section>
 
-    <section class="flexbox-secondary">
+      <section class="content flexbox-secondary">
         <div class="section-blog">
           <h class="heading-secondary">Blog • • • </h>
-          <a 
-          href="https://yunbinbae-bb.medium.com/make-your-website-aesthetic-kawaii-with-just-a-few-coding-lines-takes-only-5mins-862caea897ab" 
-          class="link flexbox" 
-          target="_blank">
+          <a
+            href="https://yunbinbae-bb.medium.com/make-your-website-aesthetic-kawaii-with-just-a-few-coding-lines-takes-only-5mins-862caea897ab"
+            class="link flexbox"
+            target="_blank"
+          >
             <div class="project-content">
               <h1 class="project-name">How to make your website "kawaii"</h1>
               <div class="project-info">
                 <p class="project-abstract1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non necessitatibus minus 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                  necessitatibus minus
                 </p>
                 <p class="project-abstract2">written in Sep 2021</p>
               </div>
@@ -203,7 +212,8 @@
               <h1 class="project-name">medium title</h1>
               <div class="project-info">
                 <p class="project-abstract1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non necessitatibus minus 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                  necessitatibus minus
                 </p>
                 <p class="project-abstract2">written in Sep 2021</p>
               </div>
@@ -214,17 +224,22 @@
           <h class="heading-secondary">Writing Samples • • • </h>
           <a href="#" class="project-box link flexbox" target="_blank">
             <div class="project-content">
-              <h1 class="project-name">Cultural Studies on Hip-Hop Idol, BTS</h1>
+              <h1 class="project-name">
+                Cultural Studies on Hip-Hop Idol, BTS
+              </h1>
               <div class="project-info">
                 <p class="project-abstract1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non necessitatibus minus quo, vel ut temporibus commodi laborum ea autem quibusdam eveniet odit porro provident tenetur mollitia a deleniti excepturi labore?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                  necessitatibus minus quo, vel ut temporibus commodi laborum ea
+                  autem quibusdam eveniet odit porro provident tenetur mollitia
+                  a deleniti excepturi labore?
                 </p>
                 <p class="project-abstract2">written in Sep 2020</p>
               </div>
             </div>
           </a>
         </div>
-    </section>
+      </section>
     </main>
 
     <footer class="footer">
@@ -261,9 +276,12 @@
             </div>
             <div class="footer-contact">
               <p>
-                <a class="footer-link resume"
-                href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing" 
-            target="_blank">Download Resume</a>
+                <a
+                  class="footer-link resume"
+                  href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing"
+                  target="_blank"
+                  >Download Resume</a
+                >
               </p>
             </div>
           </address>
@@ -281,10 +299,7 @@
               ></a>
             </li>
             <li>
-              <a
-                class="footer-link"
-                href="#"
-                target="blank"
+              <a class="footer-link" href="#" target="blank"
                 ><ion-icon class="social-icon" name="logo-medium"></ion-icon
               ></a>
             </li>
@@ -297,10 +312,7 @@
               ></a>
             </li>
             <li>
-              <a
-                class="footer-link"
-                href="#"
-                target="blank"
+              <a class="footer-link" href="#" target="blank"
                 ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
               ></a>
             </li>
@@ -340,10 +352,7 @@
               >
             </li>
             <li>
-              <a
-                class="footer-link main-nav-link"
-                href="4-love.html"
-                alt="Love"
+              <a class="footer-link main-nav-link" href="4-love.html" alt="Love"
                 >Love</a
               >
             </li>
@@ -358,7 +367,7 @@
             <li>
               <a
                 class="footer-link main-nav-link"
-                href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing"
                 target="_blank"
                 alt="Resume"
                 >Resume</a

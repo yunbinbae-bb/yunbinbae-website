@@ -24,14 +24,12 @@ Paragraph default: 1.5
 --- 02 COLORS
 
 - Primary: #FFE45E #7FC8F8 #FF6392
-- Tints: #f9f9f9
+- Tints: 
 - Shades: 
 - Accents:
-- Greys:  
-rgba(211, 199, 192, 0.4) (Drag Highlight Color)
-- Black: 
-- White: 
-#f9f9f9
+- Greys: #D4D4CB #929286 #575755
+- Black:  #1E1E1E
+- White: #f9f9f9
 
 --- 05 SHADOWS
 
@@ -54,17 +52,18 @@ rgba(211, 199, 192, 0.4) (Drag Highlight Color)
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  background-color: #2d2d2d;
+  background-color: #d4d4cb;
   /* DOES NOT work on Safari => write in Javascript..*/
   /* scroll-behavior: smooth; */
 }
 
 body {
-  font-family: 'Arial', Arial, Helvetica, sans-serif;
-  line-height: 1;
+  font-family: darkmode-off, sans-serif;
   font-weight: 400;
+  font-style: normal;
+  line-height: 1;
   overflow-x: hidden;
-  color: #f9f9f9;
+  color: #1e1e1e;
 }
 
 main {
@@ -73,10 +72,12 @@ main {
 }
 
 p {
-  font-family: 'Arial', Helvetica, sans-serif;
+  font-family: darkmode-off, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.6rem;
   line-height: 1.5;
-  color: #f9f9f9;
+  color: #1e1e1e;
 }
 
 h1,
@@ -84,8 +85,9 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: bold;
+  font-family: baskerville-urw, serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* ************************************ */
@@ -205,7 +207,7 @@ h5 {
   height: 6rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #2d2d2d;
+  background-color: #d4d4cb;
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.08);
 }
@@ -217,12 +219,12 @@ h5 {
 .header-link {
   font-family: 'Proza Libre', sans-serif;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .header-link:link,
 .header-link:visited {
-  color: #f9f9f9;
+  color: #575755;
   text-decoration: none;
   transition: all 0.1s ease-in;
 }
@@ -239,7 +241,7 @@ h5 {
 
 .btn-mobile-nav {
   border: none;
-  background-color: #2d2d2d;
+  background-color: #d4d4cb;
   /* background-cursor: pointer; */
   display: none;
 }
@@ -247,7 +249,7 @@ h5 {
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: #f9f9f9;
+  color: #929286;
 }
 
 /* attribute에 따라서 선택할 수 있음 */
@@ -266,7 +268,7 @@ h5 {
 
 .footer {
   padding: 6.4rem 0 4.8rem 0;
-  background-color: #5e5e5e;
+  background-color: #929286;
 }
 
 .footer-logo {

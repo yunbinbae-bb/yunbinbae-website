@@ -3,7 +3,7 @@
   margin-right: 6.4rem;
 }
 
-.main {
+.section {
   margin: 0 12.8rem;
 }
 
@@ -23,17 +23,42 @@
 }
 
 .music-cover {
-  width: 14rem;
-  height: 14rem;
+  width: 18rem;
+  height: 18rem;
   background-size: cover;
   border-radius: 6px;
   margin-right: 3.2rem;
 }
 
 .book-cover {
-  width: 14rem;
-  height: 24rem;
+  width: 16rem;
+  height: 26rem;
   background-size: cover;
   border-radius: 6px;
-  margin-right: 3.2rem;
+  margin-right: 3.6rem;
+}
+
+.book-title,
+.music-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.book-author,
+.music-artist {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.point-background {
+  background-color: #784f31;
+}
+
+img {
+  display: block;
+}
+
+.interests-book {
+  display: block;
+  padding: 6rem;
 }

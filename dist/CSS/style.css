@@ -2,14 +2,22 @@
 /* HERO SECTION */
 /* ************************************ */
 
-/* hero 화면 꽉 채우고 싶으면 이거 다시 활성화하기 */
+.header {
+  margin-bottom: 0;
+}
+
+.header-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 .section-hero-primary {
-  padding: 4.8rem 0 9.6rem;
+  padding: 4.8rem 0 6.4rem;
 }
 
 .hero-primary {
-  text-a
-  padding: 9.6rem 0 4.8rem 0;
   margin: 0 0 0 9.2rem;
   margin-bottom: 9.6rem;
 }
@@ -19,26 +27,31 @@
 }
 
 .hero-title {
-  font-size: 9.8rem;
+  font-family: baskerville-urw, serif;
   font-weight: 800;
-  line-height: 1;
-  letter-spacing: -0.05rem;
+  font-style: normal;
+  font-size: 8.6rem;
+  line-height: -1.4%;
+  letter-spacing: -0.1rem;
   margin-bottom: 3.2rem;
 }
 
+.hero-location {
+  font-size: 1.4rem;
+}
 
 .header-btn:link,
 .header-btn:visited {
-  color: #FFE45E;
-  cursor: pointer;
+  color: #1e1e1e;
   text-decoration: none;
   transition: all 0.08s ease-in;
 }
 
 .header-btn:hover,
 .header-btn:active {
-  color: #FF6392;
+  color: #ff6392;
   cursor: pointer;
+  -webkit-text-stroke: 0.2rem black;
   transition: all 0.08s ease-in;
 }
 
@@ -46,40 +59,34 @@
   padding-right: 6.4rem;
 }
 
-/* .hero-primary-2 {
-    position: absolute;
-    혹은 , translate()
-} */
-
-.hero-details {
-  font-family: 'Proza Libre', sans-serif;
-  font-size: 1.6rem;
-  text-align: center;
-  margin-bottom: 8rem;
-}
-
 .yunbin-bae:link,
 .yunbin-bae:visited {
-  color: #7FC8F8;
+  color: #1e1e1e;
   text-decoration: none;
   transition: all 0.08s ease-in;
 }
 
 .yunbin-bae:hover,
 .yunbin-bae:active {
-  color: #FF6392;
+  color: #ff6392;
+  cursor: pointer;
+  -webkit-text-stroke: 0.2rem black;
+  transition: all 0.08s ease-in;
 }
 
 .product-designer:link,
 .product-designer:visited {
-  color: #7FC8F8;
+  color: #1e1e1e;
   text-decoration: none;
   transition: all 0.08s ease-in;
 }
 
 .product-designer:hover,
 .product-designer:active {
-  color: #FF6392;
+  color: #ff6392;
+  cursor: pointer;
+  -webkit-text-stroke: 0.2rem black;
+  transition: all 0.08s ease-in;
 }
 
 .hero-img {
@@ -94,10 +101,15 @@
 }
 
 .location-icon {
-  height: 2.4rem;
-  width: 2.4rem;
-  color: #F9F9F9;
+  height: 2rem;
+  width: 2rem;
+  color: #1e1e1e;
 }
+
+.location-details {
+  font-size: 1.4rem;
+}
+
 /* .arrow-icon {
     display: block;
     align-items: center;
@@ -105,71 +117,40 @@
 } */
 
 /* ************************************ */
-/* ME & WORK SECTION */
-/* ************************************ */
-
-/* ABOUT ME SECTION */
-
-.me-description {
-  margin-bottom: 3.2rem;
-}
-
-.section-me {
-  padding: 9.6rem 0;
-  margin: 0 9.2rem;
-}
-
-/* WORK EXPERIENCE SECTION */
-
-.work-description {
-  margin-bottom: 3.2rem;
-}
-
-/* ************************************ */
-/* MY GOAL SECTION */
-/* ************************************ */
-
-.section-my-goal {
-  display: flex;
-  gap: 40px;
-  padding: 5%;
-  margin-bottom: 8rem;
-  background-color: #a69082;
-  color: #F9F9F9;
-}
-
-.my-goal-quotation {
-  font-size: 10rem;
-}
-
-.my-goal-description {
-  font-size: 3.6rem;
-  font-weight: bold;
-  line-height: 5rem;
-  padding: 6.4rem 1.6rem;
-}
-
-/* ************************************ */
 /* PROJECTS SECTION */
 /* ************************************ */
 
+.content {
+  margin: 0 9.6rem;
+}
+
 .project-name {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 3.2rem;
-  color: #FFE45E;
+  font-size: 5.2rem;
+  color: #575755;
   padding-bottom: 1.2rem;
 }
 
-.project-abstract1 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  line-height: 1.4;
-  padding-bottom: 0.8rem;
+.project-name:link,
+.project-name:visited {
+  color: #575755;
+  text-decoration: none;
+  transition: all 0.08s ease-in;
 }
 
-.project-abstract2 {
+.project-name:hover,
+.project-name:active {
+  color: #ffe45e;
+  -webkit-text-stroke: 0.08rem black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.project-info {
+  color: #575755;
   font-size: 1.4rem;
+  font-weight: 400;
   line-height: 1.4;
+  padding-bottom: 0.8rem;
 }
 
 /* .logo img {
@@ -180,17 +161,18 @@
 } */
 
 .heading-secondary {
-  /* font-family: 'Proza Libre', sans-serif; */
-  font-weight: 900;
-  font-size: 3.6rem;
-  margin: auto 9.6rem;
-  padding: auto 3.6rem;
+  font-family: baskerville-urw, serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4.4rem;
+  display: block;
+  margin-bottom: 4.8rem;
 }
 
 .flexbox {
   display: flex;
   text-decoration: none;
-  box-shadow: 2px 2px 2px 1px #3D3D3D;
+  box-shadow: 2px 2px 2px 1px #3d3d3d;
   justify-content: space-between;
   padding: 3.6rem;
   border-radius: 2.4rem;
@@ -214,7 +196,7 @@
 
 .link:link,
 .link:visited {
-  color: #F9F9F9;
+  color: #f9f9f9;
   text-decoration: none;
   font-weight: bold;
   transition: all 0.08s ease-in;
@@ -222,6 +204,7 @@
 
 .link:hover,
 .link:active {
-  color: #FF6392;
+  color: #ff6392;
+  cursor: pointer;
   text-decoration: none;
 }
