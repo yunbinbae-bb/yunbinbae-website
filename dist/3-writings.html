@@ -35,9 +35,9 @@
     />
 
     <link rel="stylesheet" href="CSS/general.css" />
-    <link rel="stylesheet" href="CSS/3-blog.css" />
+    <link rel="stylesheet" href="CSS/3-writings.css" />
     <link rel="stylesheet" href="CSS/general.css" />
-    <link rel="stylesheet" href="CSS/3-blog.css" />
+    <link rel="stylesheet" href="CSS/3-writings.css" />
     <link rel="stylesheet" href="CSS/queries.css" />
   </head>
 
@@ -58,15 +58,15 @@
             <a href="2-lab.html" class="main-nav-link header-link">Lab</a>
           </li>
           <li>
-            <a href="3-blog.html" class="main-nav-link header-link">Blog</a>
-          </li>
-          <li>
-            <a href="6-community.html" class="main-nav-link header-link"
-              >Community</a
+            <a href="3-writings.html" class="main-nav-link header-link"
+              >Writings</a
             >
           </li>
           <li>
-            <a href="4-profile.html" class="main-nav-link header-link"
+            <a href="4-love.html" class="main-nav-link header-link">Love</a>
+          </li>
+          <li>
+            <a href="5-profile.html" class="main-nav-link header-link"
               >Profile</a
             >
           </li>
@@ -89,43 +89,60 @@
 
     <main class="blog">
       <div class="blog-header">
-        <h1 class="heading-secondary">Writings</h1>
-        <a class="link" href="#">Medium</a>
+        <div class="blog-header-margin">
+          <h1 class="heading-secondary">Writings</h1>
+          <p>
+            This is a space where I post my personal and professional writings,
+            from personal journals to cultural studies. Many of my writings are
+            originally posted in the
+            <a class="link" href="#">Medium</a>
+            channel. Feel free to visit :-D
+          </p>
+        </div>
       </div>
 
-      <section class="blog-articles">
-        <a href="#" class="project-box link" target="_blank">
-          <div class="project-content">
-            <h1 class="project-name">Cultural Studies on HipHop Idol, BTS</h1>
-            <div class="project-info">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
-                quod voluptatem saepe. Beatae non, assumenda repudiandae tenetur
-                quisquam ratione, amet
-              </p>
-              <p>B.A. Thesis Paper</p>
-              <p>duration: 2020.09 ~ 2021.01</p>
-              <p>
-                The paper was written under Professor Oh Seil's supervising.
-              </p>
-            </div>
-          </div>
-          <div class="project-img">
-            <img src="#" alt="project image" width="70%" />
-            <img
-              src="assets/images/bts_hiphop.jpg"
-              alt="project image"
-              width="70%"
-            />
-          </div>
-        </a>
+      <section class="writing-sections">
+        <div class="writing-section">
+          <h1 class="project-name">
+            Cross-Culture, Intersectionality, Community Engagement
+          </h1>
+          <a href="#" class="project-box link" target="_blank">
+            <h2>Cultural Studies on HipHop Idol, BTS</h2>
+          </a>
+          <a href="#" class="project-box link" target="_blank">
+            <h2>MeToo Movement</h2>
+          </a>
+          <p></p>
+          <img href="#" alt="BTS image" />
+        </div>
+        <div class="writing-section">
+          <h1 class="project-name">Website Building Tips</h1>
+          <a href="#" target="_blank">
+            <h3>
+              What is Commit and Push? Connect Local Repository with Remote
+              Repository
+            </h3>
+          </a>
+          <a href="#" target="_blank">
+            <h3>
+              Make your Website "Kawaii" with Favicon, Highlight Color, and
+              witty comments
+            </h3>
+          </a>
+          <a href="#" target="_blank">
+            <h3>Deploy Your Website and Set Relative Paths</h3>
+          </a>
+          <a href="#" target="_blank">
+            <h3>Track the Website Status using Google Analytics</h3>
+          </a>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
       <div class="container footer-grid">
         <div class="logo-col">
-          <a href="#" class="footer-logo">
+          <a href="index.html" class="footer-logo logo" id="home-logo">
             <img class="logo" alt="logo" src="assets/images/bae_logo.png" />
           </a>
           <div class="copyright">
@@ -179,14 +196,7 @@
               ></a>
             </li>
             <li>
-              <a
-                class="footer-link"
-                href="#"
-                target="blank"
-                <a
-                class="footer-link"
-                href="yunbinbae-bb.medium.com"
-                target="blank"
+              <a class="footer-link" href="#" target="blank"
                 ><ion-icon class="social-icon" name="logo-medium"></ion-icon
               ></a>
             </li>
@@ -199,22 +209,13 @@
               ></a>
             </li>
             <li>
-              <a
-                class="footer-link"
-                href="#"
-                target="blank"
-                <a
-                class="footer-link"
-                href="www.linkedin.com/in/yunbinbae-bb"
-                target="blank"
+              <a class="footer-link" href="#" target="blank"
                 ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
               ></a>
             </li>
-            <li>
-              <a class="footer-link" href="#" target="blank"
-                ><ion-icon class="social-icon" name="logo-youtube"></ion-icon
-              ></a>
-            </li>
+            <!-- <li>
+                        <a class="footer-link" href="#" target="blank"><ion-icon class="social-icon" name="logo-youtube"></ion-icon></a>
+                    </li> -->
           </ul>
         </div>
 
@@ -222,27 +223,47 @@
           <p class="footer-heading">Navigation</p>
           <ul class="footer-nav">
             <li>
-              <a class="footer-link" href="index.html" alt="Home">Home</a>
+              <a class="footer-link main-nav-link" href="index.html" alt="Home"
+                >Home</a
+              >
             </li>
             <li>
-              <a class="footer-link" href="1-portfolio.html" alt="Portfolio"
+              <a
+                class="footer-link main-nav-link"
+                href="1-portfolio.html"
+                alt="Portfolio"
                 >Portfolio</a
               >
             </li>
             <li>
-              <a class="footer-link" href="2-lab.html" alt="Lab">Lab</a>
+              <a class="footer-link main-nav-link" href="2-lab.html" alt="Lab"
+                >Lab</a
+              >
             </li>
             <li>
-              <a class="footer-link" href="3-blog.html" alt="Blog">Blog</a>
+              <a
+                class="footer-link main-nav-link"
+                href="3-writings.html"
+                alt="Writings"
+                >Writings</a
+              >
             </li>
             <li>
-              <a class="footer-link" href="4-profile.html" alt="Profile"
+              <a class="footer-link main-nav-link" href="4-love.html" alt="Love"
+                >Love</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="5-profile.html"
+                alt="Profile"
                 >Profile</a
               >
             </li>
             <li>
               <a
-                class="footer-link"
+                class="footer-link main-nav-link"
                 href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing"
                 target="_blank"
                 alt="Resume"

@@ -4,22 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Community</title>
-
+    <title>Profile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,7 +25,7 @@
     />
 
     <link rel="stylesheet" href="CSS/general.css" />
-    <link rel="stylesheet" href="CSS/5-resume.css" />
+    <link rel="stylesheet" href="CSS/5-profile.css" />
     <link rel="stylesheet" href="CSS/queries.css" />
   </head>
 
@@ -55,15 +46,15 @@
             <a href="2-lab.html" class="main-nav-link header-link">Lab</a>
           </li>
           <li>
-            <a href="3-blog.html" class="main-nav-link header-link">Blog</a>
-          </li>
-          <li>
-            <a href="6-community.html" class="main-nav-link header-link"
-              >Community</a
+            <a href="3-writings.html" class="main-nav-link header-link"
+              >Writings</a
             >
           </li>
           <li>
-            <a href="4-profile.html" class="main-nav-link header-link"
+            <a href="4-love.html" class="main-nav-link header-link">Love</a>
+          </li>
+          <li>
+            <a href="5-profile.html" class="main-nav-link header-link"
               >Profile</a
             >
           </li>
@@ -84,17 +75,33 @@
       </button>
     </header>
 
-    <main class="resume"></main>
+    <main class="main">
+      <container class="profile-header">
+        <h1 class="heading-secondary">Yunbin Bae</h1>
+        <!-- <img
+          class="profile-img"
+          src="#"
+          alt="profile-image"
+          class="profile-header-img"
+        /> -->
+      </container>
+      <container class="profile-content">
+        <p>Hi, I'm Yunbin Bae. <br /></p>
+      </container>
+      <container class="profile-extra">
+        <h3>What I'm currently enjoying..</h3>
+        <div>
+          <img src="#" alt="image" />
+          <p>Skam France</p>
+        </div>
+      </container>
+    </main>
 
     <footer class="footer">
       <div class="container footer-grid">
         <div class="logo-col">
-          <a href="#" class="footer-logo">
-            <img
-              class="logo"
-              alt="logo"
-              src="/dist/assets/images/bae_logo.png"
-            />
+          <a href="index.html" class="footer-logo logo" id="home-logo">
+            <img class="logo" alt="logo" src="assets/images/bae_logo.png" />
           </a>
           <div class="copyright">
             <p class="copyright-name">
@@ -164,11 +171,9 @@
                 ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
               ></a>
             </li>
-            <li>
-              <a class="footer-link" href="#" target="blank"
-                ><ion-icon class="social-icon" name="logo-youtube"></ion-icon
-              ></a>
-            </li>
+            <!-- <li>
+                        <a class="footer-link" href="#" target="blank"><ion-icon class="social-icon" name="logo-youtube"></ion-icon></a>
+                    </li> -->
           </ul>
         </div>
 
@@ -176,27 +181,47 @@
           <p class="footer-heading">Navigation</p>
           <ul class="footer-nav">
             <li>
-              <a class="footer-link" href="index.html" alt="Home">Home</a>
+              <a class="footer-link main-nav-link" href="index.html" alt="Home"
+                >Home</a
+              >
             </li>
             <li>
-              <a class="footer-link" href="1-portfolio.html" alt="Portfolio"
+              <a
+                class="footer-link main-nav-link"
+                href="1-portfolio.html"
+                alt="Portfolio"
                 >Portfolio</a
               >
             </li>
             <li>
-              <a class="footer-link" href="2-lab.html" alt="Lab">Lab</a>
+              <a class="footer-link main-nav-link" href="2-lab.html" alt="Lab"
+                >Lab</a
+              >
             </li>
             <li>
-              <a class="footer-link" href="3-blog.html" alt="Blog">Blog</a>
+              <a
+                class="footer-link main-nav-link"
+                href="3-writings.html"
+                alt="Writings"
+                >Writings</a
+              >
             </li>
             <li>
-              <a class="footer-link" href="4-profile.html" alt="Profile"
+              <a class="footer-link main-nav-link" href="4-love.html" alt="Love"
+                >Love</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="5-profile.html"
+                alt="Profile"
                 >Profile</a
               >
             </li>
             <li>
               <a
-                class="footer-link"
+                class="footer-link main-nav-link"
                 href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing"
                 target="_blank"
                 alt="Resume"
@@ -207,7 +232,6 @@
         </div>
       </div>
     </footer>
-
     <!-- <div class="feedback">
             <textarea placeholder="Feedback is welcomed" maxlength="280"></textarea>
         <button type="button" aria-label="upload files">

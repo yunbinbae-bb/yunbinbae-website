@@ -1,5 +1,13 @@
-.blog {
-  margin: 0 9.2rem;
+.blog-header {
+  background-color: #5e5e5e;
+}
+
+.blog-header-margin {
+  margin: auto 9.2rem 4.8rem 9.2rem;
+}
+
+.heading-secondary {
+  display: block;
 }
 
 .project-name {
@@ -13,6 +21,11 @@
   font-weight: 300;
 }
 
+.writing-section {
+  margin: 0 9.2rem;
+}
+
+/* 
 .project-box {
   display: flex;
   text-decoration: none;
@@ -21,7 +34,7 @@
   padding: 3.6rem;
   border-radius: 2.4rem;
   margin-bottom: 9.6rem;
-}
+} */
 
 .project-box:hover {
   transform: scale(1.01);
