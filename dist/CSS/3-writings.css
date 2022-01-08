@@ -150,11 +150,11 @@ hr {
 /* Images */
 .writing-img {
   background-color: #7d7d7d;
-  background-image: url('/dist/assets/images/img-frame.jpeg');
+  background-image: url('/dist/assets/images/img-frame.png');
   width: 60%;
   max-width: 100%;
   height: auto;
-  padding: 12px;
+  padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
