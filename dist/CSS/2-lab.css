@@ -61,7 +61,7 @@
 
 .lab-img {
   background-color: #7d7d7d;
-  background-image: url('/dist/assets/images/img-frame.png');
+  background-image: url('../../assets/images/img-frame.png');
   width: 60%;
   max-width: 100%;
   height: auto;
