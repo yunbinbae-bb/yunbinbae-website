@@ -315,11 +315,12 @@ h5 {
 }
 
 .footer-heading {
+  font-family: baskerville-urw, serif;
   font-size: 1.8rem;
   font-weight: 500;
   margin-bottom: 2.4rem;
   text-transform: uppercase;
-  color: #d4d4cb;
+  color: #f9f9f9;
 }
 
 .footer-contact {
@@ -380,7 +381,8 @@ h5 {
 
 .copyright-name,
 .copyright-belief {
-  font-size: 1.2rem;
+  font-family: baskerville-urw,  serif;
+  font-size: 1.4rem;
   color: #f9f9f9;
 }
 
@@ -408,10 +410,10 @@ h5 {
 }
 
 ::-moz-selection {
-  background: #f9f9f9;
-  color: #2d2d2d;
+  background: #1e1e1e;
+  color: #f9f9f9;
 }
 ::selection {
-  background: #f9f9f9;
-  color: #2d2d2d;
+  background: #1e1e1e;
+  color: #f9f9f9;
 }
