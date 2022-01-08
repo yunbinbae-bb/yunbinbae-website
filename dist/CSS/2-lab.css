@@ -2,6 +2,16 @@
   margin: 0 9.6rem;
 }
 
+.header {
+  margin-bottom: 3.2rem;
+}
+
+.lab-header-margin {
+  display: block;
+  margin-bottom: 9.2rem;
+  width: 50%;
+}
+
 .lab-detail {
   margin-bottom: 9.6rem;
 }
@@ -9,6 +19,7 @@
 .lab-projects {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  align-items: center;
   gap: 6.4rem;
   padding: 0 0 12.8rem 0;
   overflow: hidden;
@@ -17,7 +28,7 @@
 
 .lab-project {
   text-decoration: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.04);
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.04); */
   padding: 1.2rem;
   border-radius: 1.2rem;
 }
@@ -30,4 +41,20 @@
 
 .item img:hover {
   transform: scale(1.1);
+}
+
+.link:link,
+.link:visited {
+  color: #575755;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.08s ease-in;
+}
+
+.link:hover,
+.link:active {
+  color: #ff6392;
+  cursor: pointer;
+  transition: all 0.08s ease-in;
 }

@@ -1,6 +1,10 @@
+.header {
+  margin-bottom: 9.6rem;
+}
+
 .profile-img {
   display: block;
-  margin-right: 6.4rem;
+  margin-right: 8rem;
 }
 
 .profile-img-source {
@@ -17,8 +21,24 @@
   margin-bottom: 8rem;
 }
 
+.project-infos {
+  margin-right: 3.2rem;
+}
+
+.introduction-title {
+  display: block;
+  font-size: 7.4rem;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 4.8rem;
+}
+
+.introduction-paragraph {
+  font-size: 1.4rem;
+}
+
 .interests-title {
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin-bottom: 2.4rem;
 }
 
@@ -46,13 +66,18 @@
 .book-title,
 .music-title {
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .book-author,
 .music-artist {
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+}
+
+.music-genre {
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 /* .point-background {

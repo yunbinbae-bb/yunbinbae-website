@@ -1,60 +1,54 @@
-.portfolio {
-  margin: 0 9.6rem;
+.header {
+  margin-bottom: 9.6rem;
+}
+
+.content {
+  margin: 0 16rem;
+}
+
+.project-name {
+  font-size: 3.6rem;
+  color: #575755;
+}
+
+.project-name-title {
+  display: block;
+  margin-bottom: 3.2rem;
+  font-weight: 800;
+}
+
+.project-name:link,
+.project-name:visited {
+  color: #575755;
+  text-decoration: none;
+  transition: all 0.08s ease-in;
+}
+
+.project-name:hover,
+.project-name:active {
+  color: #5aa9e6;
+  -webkit-text-stroke: 0.08rem black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.project-info {
+  display: block;
+  width: 80%;
+  color: #1e1e1e;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-bottom: 0.8rem;
 }
 
 .heading-secondary {
-  /* font-family: 'Sigmar One', cursive; */
-  font-size: 2.4rem;
-  color: #7fc8f8;
-}
-
-.portfolio-detail {
-  margin-bottom: 9.6rem;
-}
-
-.portfolio-projects {
-  padding: 12.8rem 0;
-}
-
-.project-title {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 3.2rem;
-  color: #ffe45e;
-  padding-bottom: 0.8rem;
-}
-
-.project-subtitle {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2.4rem;
-  color: #7fc8f8;
-  padding-bottom: 1.2rem;
-}
-
-.project-abstract1 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  line-height: 1.4;
-  padding-bottom: 0.8rem;
-}
-
-.project-abstract2 {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  text-transform: uppercase;
-}
-
-.project-box {
-  display: flex;
-  text-decoration: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.06);
-  justify-content: space-between;
-  padding: 3.6rem;
-  border-radius: 2.4rem;
-  margin-bottom: 9.6rem;
-}
-
-.project-box:hover {
-  transform: scale(1.01);
+  font-family: baskerville-urw, serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4.4rem;
+  display: block;
+  margin-bottom: 4.8rem;
 }
 
 .link:link,
@@ -62,11 +56,26 @@
   color: #f9f9f9;
   text-decoration: none;
   font-weight: bold;
-  transition: all 0.2s ease-in;
+  transition: all 0.08s ease-in;
 }
 
 .link:hover,
 .link:active {
   color: #ff6392;
+  cursor: pointer;
   text-decoration: none;
 }
+
+/* .project-box {
+  display: flex;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.06);
+  justify-content: space-between;
+  padding: 3.6rem;
+  border-radius: 2.4rem;
+  margin-bottom: 9.6rem;
+} */
+
+/* .project-box:hover {
+  transform: scale(1.01);
+} */
