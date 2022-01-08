@@ -259,9 +259,10 @@ h5 {
 
 .header-link:link,
 .header-link:visited {
-  color: #575755;
+  color: #929286;
+  font-family: baskerville-urw, serif;
   text-decoration: none;
-  transition: all 0.1s ease-in;
+  transition: all 0.08s ease-in-out;
 }
 
 .header-link:hover,
