@@ -5,6 +5,17 @@
 /* BELOW 1344px (=84*16) [Smaller desktops] */
 /* ************************************ */
 
+.yunbin-bae {
+  top: 120px;
+  left: 10rem;
+  width: 100%;
+}
+
+.does {
+  top: 200px;
+  left: 93rem;
+}
+
 /* ************************************ */
 /* BELOW 1200px (=84*16) [Landscape Tablets] */
 /* ************************************ */
@@ -24,7 +35,7 @@
   .btn-mobile-nav {
     display: block;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 9999;
     /* high value면 ok. (z-index:9999; 같은 것도 가능) just to show that we really want it on top! */
   }
 
@@ -75,6 +86,14 @@
   }
 }
 
+/* .yunbin-bae,
+.does,
+.hero-primary,
+.section-portfolio,
+.footer {
+  display: none;
+} */
+
 /* ************************************ */
 /* BELOW 704px  [SMALLER TABLETS] */
 /* ************************************ */
@@ -83,59 +102,6 @@
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* ************************************ */
-/* Fixing Safari flexbox gap */
-/* ************************************ */
-
-.no-flexbox-gap .main-nav-list li:not(:last-child) {
-  margin-right: 4.8rem;
-}
-
-.no-flexbox-gap .list-item:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
-.no-flexbox-gap .list-icon:not(:last-child) {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .delivered-faces {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .meal-attribute:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
-.no-flexbox-gap .meal-icon {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .footer-row div:not(:last-child) {
-  margin-right: 6.4rem;
-}
-
-.no-flexbox-gap .social-links li:not(:last-child) {
-  margin-right: 2.4rem;
-}
-
-.no-flexbox-gap .footer-nav li:not(:last-child) {
-  margin-bottom: 2.4rem;
-}
-
-@media (max-width: 75em) {
-  .no-flexbox-gap .main-nav-list li:not(:last-child) {
-    margin-right: 3.2rem;
-  }
-}
-
-@media (max-width: 59em) {
-  .no-flexbox-gap .main-nav-list li:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 4.8rem;
   }
 }
 
