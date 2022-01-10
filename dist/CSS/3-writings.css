@@ -149,7 +149,6 @@ hr {
 
 /* Images */
 .writing-img {
-  /* background-color: #7d7d7d; */
   background-image: url('../assets/images/img-frame.png');
   width: 60%;
   max-width: 100%;

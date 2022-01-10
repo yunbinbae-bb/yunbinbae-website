@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,6 +40,22 @@
     <link rel="stylesheet" href="CSS/general.css"/>
     <link rel="stylesheet" href="CSS/queries.css"/>
     <link rel="stylesheet" href="CSS/rm.css"/>
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script
+    defer
+    src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+  ></script>
+  <script defer src="js/script.js"></script>
+
+  <title>Relief's Map</title>
   </head>
 </html>
 
@@ -92,13 +107,13 @@
       </button>
     </header>
 
-    <main class="content">
+    <main class="containers">
       <container class="content-title">
-        <img src="#" alt="header image"/>
         <h5 class="project-sort">UX Case Study</h5>
         <h1 class="project-maintitle">Spy Camera Detector</h1>
         <h1 class="project-maintitle product-title">"Relief's Map"</h1>
         <h1 class="project-subtitle">Social Trust and Learned Helplessness as Social Innovation Design Elements</h1>
+        <img src="#" alt="header image"/>
       </container>
       <container>
         <div class="pdf-button">
@@ -158,18 +173,17 @@
       <div class="logo-col">
         <a href="index.html" class="footer-logo logo" id="home-logo">
           <img
-          src="assets/images/logo-Bae-circle.png"
-          alt="logo"
-          class="footer-logo"
-        />
+            src="assets/images/logo-Bae-circle.png"
+            alt="logo"
+            class="footer-logo"
+          />
         </a>
         <div class="copyright">
           <p class="copyright-name">
             &copy; <span class="year">2021</span> by Yunbin Bae
           </p>
           <p class="copyright-belief">
-            With the belief in the power of <br />technology’s uniting people
-            & world
+            Embedding Humanity into the Technology
           </p>
         </div>
       </div>
@@ -178,29 +192,30 @@
         <p class="footer-heading">Contact Me</p>
         <address class="contacts">
           <div class="footer-contact">
-            <ion-icon class="contact-icon" name="location-outline"></ion-icon>
+            <!-- <ion-icon class="contact-icon" name="location-outline"></ion-icon> -->
             <p class="contacts">Seoul, South Korea</p>
           </div>
           <div class="footer-contact">
-            <ion-icon class="contact-icon" name="mail-outline"></ion-icon>
-            <p>
-              <a class="footer-link" href="mailto:yunbinbae.bb@gmail.com"
-                >yunbinbae.bb@gmail.com</a
-              >
-            </p>
+            <!-- <ion-icon class="contact-icon" name="mail-outline"></ion-icon> -->
+            <a class="footer-link" href="mailto:yunbinbae.bb@gmail.com"
+              >yunbinbae.bb@gmail.com</a
+            >
           </div>
           <div class="footer-contact">
             <p>
-              <a class="footer-link resume"
-              href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing" 
-          target="_blank">Download Resume</a>
+              <a
+                class="footer-link resume"
+                href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing"
+                target="_blank"
+                >Download Resume</a
+              >
             </p>
           </div>
         </address>
       </div>
 
       <div class="sns-col">
-        <p class="footer-heading">Follow Me Here</p>
+        <p class="footer-heading">Connect w/ Me</p>
         <ul class="social-links">
           <li>
             <a
@@ -211,10 +226,7 @@
             ></a>
           </li>
           <li>
-            <a
-              class="footer-link"
-              href="#"
-              target="blank"
+            <a class="footer-link" href="#" target="blank"
               ><ion-icon class="social-icon" name="logo-medium"></ion-icon
             ></a>
           </li>
@@ -226,14 +238,6 @@
               ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
             ></a>
           </li>
-          <li>
-            <a
-              class="footer-link"
-              href="#"
-              target="blank"
-              ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
-            ></a>
-          </li>
           <!-- <li>
                       <a class="footer-link" href="#" target="blank"><ion-icon class="social-icon" name="logo-youtube"></ion-icon></a>
                   </li> -->
@@ -243,74 +247,60 @@
       <div class="nav-col">
         <p class="footer-heading">Navigation</p>
         <ul class="footer-nav">
-          <li>
-            <a class="footer-link main-nav-link" href="index.html" alt="Home"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer-link main-nav-link"
-              href="1-portfolio.html"
-              alt="Portfolio"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a class="footer-link main-nav-link" href="2-lab.html" alt="Lab"
-              >Lab</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer-link main-nav-link"
-              href="3-writings.html"
-              alt="Writings"
-              >Writings</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer-link main-nav-link"
-              href="4-love.html"
-              alt="Love"
-              >Love</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer-link main-nav-link"
-              href="5-profile.html"
-              alt="Profile"
-              >Profile</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer-link main-nav-link"
-              href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing" 
-              target="_blank"
-              alt="Resume"
-              >Resume</a
-            >
-          </li>
+          <div>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="index.html"
+                alt="Home"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="1-portfolio.html"
+                alt="Portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="footer-link main-nav-link" href="2-lab.html" alt="Lab"
+                >Lab</a
+              >
+            </li>
+          </div>
+          <div>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="3-writings.html"
+                alt="Writings"
+                >Writings</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="4-love.html"
+                alt="Love"
+                >Love</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="5-profile.html"
+                alt="Profile"
+                >Profile</a
+              >
+            </li>
+          </div>
         </ul>
       </div>
     </div>
   </footer>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script
-      defer
-      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
-    ></script>
-    <script defer src="script.js"></script>
+
   </body>
 </html>

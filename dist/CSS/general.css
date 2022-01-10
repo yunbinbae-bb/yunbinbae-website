@@ -184,15 +184,6 @@ h5 {
   width: 18%;
 }
 
-.section-name {
-  display: block;
-  font-family: baskerville-urw, serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 2.4rem;
-  margin-bottom: 0.8rem;
-}
-
 .section-name-pronounce {
   display: block;
   font-family: baskerville-urw, serif;
@@ -204,6 +195,29 @@ h5 {
   font-family: baskerville-urw, serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.button {
+  border: 0;
+  outline: 0;
+}
+
+.button-link {
+  color: #1e1e1e;
+}
+
+.button-link:link,
+.button-link:visited {
+  color: #929286;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.08s ease-in;
+}
+
+.button-link:hover,
+.button-link:active {
+  text-decoration: none;
+  color: #575755;
 }
 
 /* ************************************ */
@@ -232,9 +246,9 @@ h5 {
   font-size: 1.6rem;
 }
 
-/* *********STICKY NAVIGATION*********** */
+/* *********STICKY NAVIGATION (Desktop ver.) *********** */
 
-.sticky .header {
+.sticky {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -244,7 +258,20 @@ h5 {
   padding-bottom: 0;
   background-color: #d4d4cb;
   z-index: 999;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.01);
+}
+
+.side-nav {
+  position: fixed;
+  left: 3rem;
+  top: 50rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 999;
+}
+
+.side-nav-lists {
+  margin-bottom: 3.2rem;
 }
 
 .sticky .section-hero {
@@ -252,7 +279,6 @@ h5 {
 }
 
 .header-link {
-  font-family: 'Proza Libre', sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -285,7 +311,7 @@ h5 {
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: #929286;
+  color: #575755;
 }
 
 /* attribute에 따라서 선택할 수 있음 */
@@ -303,7 +329,7 @@ h5 {
 }
 
 .footer {
-  padding: 6.4rem 0 4.8rem 0;
+  padding: 4.8rem 0 4.8rem 0;
   background-color: #929286;
 }
 
@@ -332,9 +358,11 @@ h5 {
 
 .contacts {
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 300;
   line-height: 1.6rem;
   color: #f9f9f9;
+  margin-bottom: 0.6rem;
 }
 
 .contact-icon {
@@ -356,8 +384,17 @@ h5 {
 .footer-nav {
   list-style: none;
   display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
+  /* flex-direction: column; */
+  gap: 2.8rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .footer-link:link,
@@ -383,11 +420,13 @@ h5 {
 .copyright-belief {
   font-family: baskerville-urw,  serif;
   font-size: 1.4rem;
+  font-weight: 300;
   color: #f9f9f9;
 }
 
 .copyright-name {
   font-weight: bold;
+  font-size: 1.4rem;
   margin-bottom: 0.6rem;
 }
 

@@ -48,9 +48,26 @@
     <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="CSS/1-portfolio-nomad.css" />
     <link rel="stylesheet" href="CSS/queries.css" />
+    
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script
+    defer
+    src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+  ></script>
+  <script defer src="js/script.js"></script>
+  
     <title>Nomad</title>
   </head>
-  <body>
+  <body
+    marginwidth="0"
+  >
     <header class="header">
       <!-- sticky... -->
       <a class="header-logo logo" href="index.html" id="home-logo">
@@ -95,205 +112,373 @@
         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
       </button>
     </header>
-    <main class="containers">
-      <container class="container-project">
-        <img src="#" alt="header image" />
-        <h5 class="project-sort">UX Design</h5>
-        <h1 class="project-maintitle">
-          Virtual Travel Livestreaming Visible Radio
-        </h1>
-        <h1 class="project-maintitle product-title">“NOMAD”</h1>
-        <h1 class="project-subtitle">
-          Redefining Traveling as a Virtual Experience for the Youth Suffering
-          from Covid-Blue Depression
-        </h1>
-        <h5 class="project-info">Individual Project (Oct 2021 - )</h5>
-        <h5 class="project-info">Tools: Figma, ProtoPie</h5>
-        <h5 class="project-info">
-          Link: <a href="#" alt="Prototyping link">Prototyping</a>
-        </h5>
-      </container>
-      <container class="container-overview">
-        <div class="overview-block">
-          <h2 class="overview-title">Problem</h2>
-          <p>
-            A heightened desire to go outside or to see even more of the world
-            and feeling a connection with people during the Pandemic.
-          </p>
+    <main class="sections">
+      <nav class="side-nav">
+        <ul class="side-nav-lists">
+          <li>
+            <a href="#overview" class="side-nav-link"><ion-icon name="ellipse" class="side-nav-icon"></ion-icon>Overview</a>
+          </li>
+          <li class="side-nav-list">
+            <a href="#context" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon> Context</a
+            >
+          </li>
+          <li>
+            <a href="#generative-research" class="side-nav-link"><ion-icon name="ellipse" class="side-nav-icon"></ion-icon> Generative Research</a>
+          </li>
+          <li>
+            <a href="#synthesis" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon> Synthesis</a
+            >
+          </li>
+          <li>
+            <a href="#design" class="side-nav-link">
+            <ion-icon name="ellipse" class="side-nav-icon"></ion-icon>
+            Design</a>
+          </li>
+          <li>
+            <a href="#ux-design" class="side-nav-link">
+            <ion-icon name="ellipse" class="side-nav-icon"></ion-icon>
+            UX Design</a>
+          </li>
+          <li>
+            <a href="#gui-design" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon>
+            GUI Design</a
+            >
+          </li>
+          <li>
+            <a href="#prototype" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon> Prototype</a
+            >
+          </li>
+        </ul>
+        <button type="button" class="button"><a href="rm.html" class="button-link">Previous</a></button>
+      </nav>
+      <section class="section-project">
+        <img src="assets/images/portfolio/nomad/test-header.png" alt="header image" class="project-header-img" />
+        <div class="project-header-title-info">
+          <div class="project-title-blocks">
+            <div class="project-focus-areas">
+              <h5 class="project-focus-area">UX Design</h5>
+              <h5 class="project-focus-area">UX Research</h5>
+            </div>
+            <h1 class="project-maintitle">
+              Virtual Travel Livestreaming Radio "NOMAD"
+            </h1>
+            <h1 class="project-subtitle">
+              Redefining Traveling as a Virtual Experience for the Youth
+              Suffering from "Corona-Blue"
+            </h1>
+          <div class="project-hashtags">
+            <h3 class="project-hashtag"># Information and Communication Technology (ICT)</h3>
+            <h3 class="project-hashtag"># Social Psychology</h3> 
+            <h3 class="project-hashtag"># Corona-Blue</h3>
+          </div>
+          </div>
+          <div class="project-info-blocks">
+            <div class="project-info-block project-info-roles">
+              <h5 class="project-info">Roles and Responsibilities</h5>
+              <p class="project-info-details">Researcher: end-to-end user research of survey, interviews, affinity mapping, and user-testing</p>
+              <p class="project-info-details">Designer: sketched, wire-framed, and high-fidelity prototyped the UX/UI</p>
+            </div>
+            <div class="project-info-block">
+              <h5 class="project-info">Project Context</h5>
+              <p class="project-info-details">Individual Project</p>
+              <p class="project-info-details">Time: 8 weeks [June - Aug 2021]</p>
+              <p class="project-info-details">Link:
+                <a href="#" alt="Prototyping link" target="_blank" class="link"
+                  >Prototyping</a
+                ></p>
+            </div>
+            <div class="project-info-block">
+              <h5 class="project-info">Tools Used</h5>
+              <p class="project-info-details">Figma</p>
+              <p class="project-info-details">ProtoPie</p>
+              <p class="project-info-details">Illustrator</p>
+              <p class="project-info-details">LucidChart</p>
+            </div>
+          </div>
         </div>
-        <div class="overview-block">
-          <h2 class="overview-title">Solution</h2>
-          <p>
-            Travel and Connect Virtually through Livestreaming Videos [or
-            Visible Radios], Easily Taken by Your Neighbours across the World
-          </p>
+      </section>
+      <section class="section-overview side-margin id="overview">
+        <h5 class="section-name">01. Project Overview</h5>
+        <div class="overview-blocks">
+          <div class="overview-block">
+            <h2 class="overview-title">Problem</h2>
+            <p class="overview-paragraph">
+              A heightened desire to go outside or to see even more of the world
+              and feel connection with people during the Pandemic.
+            </p>
+          </div>
+          <div class="overview-block">
+            <h2 class="overview-title">Goal</h2>
+            <p class="overview-paragraph">
+              Travel and Connect Virtually through Livestreaming Videos [or
+              Visible Radios], Easily Taken by Neighbours across the World
+            </p>
+          </div>
         </div>
-        <h3>
-          #Information and Communication Technology (ICT) #Social Psychology
-          #Covid-Blue
-        </h3>
-      </container>
-      <container class="container-context">
-        <h5 class="section-name">Context</h5>
-        <h4 class="storytelling-sentence">After the Pandemic hit...</h4>
-        <div>
-          <h2 class="storytelling-sentence">
+      </section>
+      <section class="section-context side-margin" id="context">
+        <h5 class="section-name">02. Context</h5>
+        <h4 class="storytelling-sentence-sub align-center">
+          After the Pandemic struck...
+        </h4>
+        <div class="storytelling-block">
+          <h2 class="storytelling-sentence align-left italic">
             “ I have been virtually traveling with Tinder passport. ”
           </h2>
-          <h2 class="storytelling-sentence">
-            “ I use Snapchat Maps for my travel ”
+          <h2 class="storytelling-sentence align-left italic">
+            “ I use Snapchat Maps for my travel. ”
           </h2>
-          <p>
+          <p class="storytelling-summary">
             95% looked for travel inspiration and 53% heightened their desire to
             explore even more of the world.
           </p>
-          <p>
+          <p class="excerpt-source">
             * source: virtual travel Youtube viewer’s comments & Booking.com
           </p>
         </div>
-        <div>
-          <h2 class="storytelling-sentence">
-            “ Youth depression doubled during the pandemic ”
+        <div class="storytelling-block">
+          <h2 class="storytelling-sentence align-right italic">
+            “ Youth depression doubled during the Pandemic. ”
           </h2>
-          <h2 class="storytelling-sentence">
-            “ Young adults hardest hit by loneliness during pandemic ”
+          <h2 class="storytelling-sentence align-right italic">
+            “ Young adults hardest hit by loneliness during Pandemic. ”
           </h2>
-          <p>* source: CNN and Harvard Research</p>
+          <p class="excerpt-source align-right">
+            * source: CNN and Harvard Research     
+          </p>
         </div>
-        <div class="storytelling-sentence">
-          The lonely and depressed Youth were using applications that allowed
+        <div class="storytelling-summary align-center">
+          The lonely and depressed Youth have been using applications <br />that allowed
           them searching locations and exploring regions through in-app “map.”
         </div>
-      </container>
-      <container class="container-generative-research">
-        <h5 class="section-name">Generative Research</h5>
-        <div class="section-method">
-          <h1 class="ux-method">Initial Survey</h1>
-          <p class="ux-method-info">69 survey participants</p>
-          <p class="ux-method-info">
-          <a href="https://forms.gle/CUt3yDop61EAtEAU9 target="_blank">survey link</a>
-          </p>
-          <p class="ux-method-summary">
-            Although many people enjoy watching travel videos from youTube or snapchat and instagram videos and share travel videos to close people, their fear for invasion of privacy (64%) and difficulty of publicly creating travel content (67%) is deterring them from sharing content publicly. meanwhile, most of them were willing to introduce their cities and countries to others. 
-          </p>
-          <div class="survey-pngs">
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-survey 1.png"/>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-survey 2.png"/>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-survey 3.png"/>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-survey 4.png"/>
+      </section>
+      <section class="section-generative-research side-margin" id="generative-research">
+        <h5 class="section-name">03. Generative Research</h5>
+        <div class="section-method align-left">
+          <div class="survey-block-text">
+            <h1 class="ux-method">Initial Survey</h1>
+            <div class="ux-method-infos">
+              <p class="ux-method-info">69 survey participants</p>
+              <p class="ux-method-info">
+              <a
+                href="https://forms.gle/CUt3yDop61EAtEAU9"
+                class="link"
+                target="_blank"
+                >survey link</a
+              >
+            </p>
+            </div>
+            <p class="ux-method-summary">
+              Although many people enjoy watching travel videos from youTube or
+              snapchat and instagram videos and share travel videos to close
+              people, their fear for invasion of privacy (64%) and difficulty of
+              publicly creating travel content (67%) is deterring them from
+              sharing content publicly. meanwhile, most of them were willing to
+              introduce their cities and countries to others.
+            </p>
+          </div>
+          <div class="survey-block-pngs">
+            <img
+              src="assets/images/portfolio/nomad/portfolio-nomad-survey 1.png"
+              class="survey-png"
+            />
+            <img
+              src="assets/images/portfolio/nomad/portfolio-nomad-survey 2.png"
+              class="survey-png"
+            />
+            <img
+              src="assets/images/portfolio/nomad/portfolio-nomad-survey 3.png"
+              class="survey-png"
+            />
+            <img
+              src="assets/images/portfolio/nomad/portfolio-nomad-survey 4.png"
+              class="survey-png"
+            />
           </div>
         </div>
-        <div class="section-method">
+        <div class="section-method align-left">
           <h1 class="ux-method">Competitive Analysis</h1>
-          <p class="ux-method-info">Based on the initial survey, I’ve selected five video platforms related to online travel or could be used for such purposes.</p>
-          <img src="assets/images/portfolio/nomad/portfolio-nomad-competitors-summary.png"/>
-          <div>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-competitors-each 1.png alt="competitor analysis"/>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-competitors-each 2.png alt="competitor analysis"/>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-competitors-each 3.png alt="competitor analysis"/>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-competitors-each 4.png alt="competitor analysis"/>
-          </div>
-        </div>
+          <p class="ux-method-info">
+            Based on the initial survey, I’ve selected the five video platforms
+            related to online travel or could be used for such purposes.
+          </p>
+          <img
+            src="assets/images/portfolio/nomad/portfolio-nomad-competitors-summary.png"
+            class="competitors-summary-img-1"
+            alt="competitors analysis summary table"
+          />
+          <img src="" alt="more information on competitor analysis" class="competitors-summary-img-2"/>
+          
         <div class="section-method">
           <h5 class="ux-method">Semi-Structured Interviews</h5>
           <p class="ux-method-info">
-            Based on competitive analysis, I had interviews with five people who use the competitors’ products.
+            Based on competitive analysis, I had interviews with five people who
+            use the competitors’ products.
           </p>
-          <h5 class="ux-method-findings-title">
-            Key Similarities...
-          </h5>
-          <p class="ux-method-findings-paragraph">During Coronavirus lockdown, they have been missing travelling because of the feeling of connectedness with people as well as the desire for new sightseeing besides their rooms.</p>
-          <h5 class="ux-method-findings-title">
-            Key Frustrations...
-          </h5>
-          <p class="ux-method-findings-paragraph">Unpredictable Video Content (e.g., encountering selfies or workout videos) randomly popping out when watching videos from the existing social media apps.</p>
-          <p class="ux-method-findings-paragraph">Fear for Invasion of Privacy and Unwanted Communication with “strangers” when using social media.</p>
+          <h5 class="ux-method-findings-title">Key Similarities...</h5>
+          <p class="ux-method-findings-paragraph">
+            During Coronavirus lockdown, they have been missing travelling
+            because of the feeling of connectedness with people as well as the
+            desire for new sightseeing besides their rooms.
+          </p>
+          <h5 class="ux-method-findings-title">Key Frustrations...</h5>
+          <p class="ux-method-findings-paragraph">
+            Unpredictable Video Content (e.g., encountering selfies or workout
+            videos) randomly popping out when watching videos from the existing
+            social media apps.
+          </p>
+          <p class="ux-method-findings-paragraph">
+            Fear for Invasion of Privacy and Unwanted Communication with
+            “strangers” when using social media.
+          </p>
           <div class="hover-questions">
             <div class="hover-question">
               <h5 class="hover-question-title">Predictability</h5>
-              <p class="hover-question-paragraph">Predictability of a function in UX is all about knowing in advance or feeling the upcoming event. Encountering unexpected and unenjoyable content can make the experience stressful and burdensome.</p>
+              <p class="hover-question-paragraph">
+                Predictability of a function in UX is all about knowing in
+                advance or feeling the upcoming event. Encountering unexpected
+                and unenjoyable content can make the experience stressful and
+                burdensome.
+              </p>
             </div>
             <div class="hover-question">
               <h5 class="hover-question-title">Privacy UX</h5>
-              <p class="hover-question-paragraph">When it comes to social media products, uploading personal content often results in the users being exposed to unwanted attention and contact unless the product company carefully deals with it.</p>
+              <p class="hover-question-paragraph">
+                When it comes to social media products, uploading personal
+                content often results in the users being exposed to unwanted
+                attention and contact unless the product company carefully deals
+                with it.
+              </p>
             </div>
           </div>
-          <img src="#" alt="interviews summary chart"/>
+          <img src="#" alt="interviews summary chart" class="interview-img"/>
         </div>
-      </container>
-      <container class="container-synthesis">
+      </section>
+      <section class="section-synthesis side-margin" id="synthesis">
         <h5 class="section-name">Synthesis</h5>
         <div class="section-method">
           <div class="section-method-blocks">
             <div class="section-method-block">
               <h5 class="ux-method">Jasmine</h5>
-              <p class="ux-method-summary">20 yr-old freshman living in Toronto who is outgoing, vehement, inquisitive, friendly and frequently uses Snapchat, Instagram, Tinder</p>
-              <p class="ux-method-summary">Jasmine graduated high school during the pandemic and is spending her freshman year without meeting any new friends. She could not plan to travel abroad with her new colleague friends, and she was pretty depressed for months. The pattern of escaping to social media to get out of the emotions nevertheless gets more depressed when she turns off her phone.</p>
-              <p class="ux-method-summary">"I don't want to feel isolated anymore."</p>
+              <p class="ux-method-summary">
+                20 yr-old freshman living in Toronto who is outgoing, vehement,
+                inquisitive, friendly and frequently uses Snapchat, Instagram,
+                Tinder
+              </p>
+              <p class="ux-method-summary">
+                Jasmine graduated high school during the pandemic and is
+                spending her freshman year without meeting any new friends. She
+                could not plan to travel abroad with her new colleague friends,
+                and she was pretty depressed for months. The pattern of escaping
+                to social media to get out of the emotions nevertheless gets
+                more depressed when she turns off her phone.
+              </p>
+              <p class="ux-method-summary">
+                "I don't want to feel isolated anymore."
+              </p>
               <p class="excerpt-source">excerpted from Interviewee E</p>
             </div>
             <div class="section-method-block">
-              <img src="assets/images/portfolio/nomad/portfolio-nomad-synthesis-persona 1.png" alt="persona Jasmine"/>
+              <img
+                src="assets/images/portfolio/nomad/portfolio-nomad-synthesis-persona 1.png"
+                alt="persona Jasmine"
+                class="persona-img"
+              />
             </div>
           </div>
           <div class="section-method-blocks">
             <div class="section-method-block">
-              <h5 class="ux-method">Huan</h5>
-              <p class="ux-method-summary">24 yr-old graphic designer living in Singapore who is exploratory, imaginative, reserved, private and frequently uses Pinterest, YouTube, Drive and Listen</p>
-              <p class="ux-method-summary">Huan loves to travel — at least until he encountered the turbulent Covid-19 era. He loves traveling while working. He also has a photograph Instagram account with 3k followers, where he posts photos taken while traveling. However, it is not an available option for now. He has been searching for ways to feel refreshed but hasn't found any.</p>
-              <p class="ux-method-summary">"I am usually reserved, 
-                but these days I yearn for refreshment.”</p>
-              <p class="excerpt-source">excerpted from Interviewee D</p>
+              <img
+                src="assets/images/portfolio/nomad/portfolio-nomad-synthesis-persona 2.png"
+                alt="persona Huan"
+                class="persona-img"
+              />
             </div>
             <div class="section-method-block">
-              <img src="assets/images/portfolio/nomad/portfolio-nomad-synthesis-persona 2.png" alt="persona Huan"/>
+              <h5 class="ux-method">Huan</h5>
+              <p class="ux-method-summary">
+                24 yr-old graphic designer living in Singapore who is
+                exploratory, imaginative, reserved, private and frequently uses
+                Pinterest, YouTube, Drive and Listen
+              </p>
+              <p class="ux-method-summary">
+                Huan loves to travel — at least until he encountered the
+                turbulent Covid-19 era. He loves traveling while working. He
+                also has a photograph Instagram account with 3k followers, where
+                he posts photos taken while traveling. However, it is not an
+                available option for now. He has been searching for ways to feel
+                refreshed but hasn't found any.
+              </p>
+              <p class="ux-method-summary">
+                "I am usually reserved, but these days I yearn for refreshment.”
+              </p>
+              <p class="excerpt-source">excerpted from Interviewee D</p>
             </div>
+
           </div>
         </div>
-        <div class="section-method">
+        <div class="section-method journey-blocks">
           <div>
             <h5 class="ux-method">Jasmine’s Daily Life. . .</h5>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-synthesis-userjourney 1.png" alt="Jasmine’s User Journey"/>
+            <img
+              src="assets/images/portfolio/nomad/portfolio-nomad-synthesis-userjourney 1.png"
+              alt="Jasmine’s User Journey"
+              class="user-journey"
+            />
           </div>
           <div>
             <h5 class="ux-method">Huan’s Daily Life. . .</h5>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-synthesis-userjourney 2.png" alt="Huan's User Journey"/>
+            <img
+              src="assets/images/portfolio/nomad/portfolio-nomad-synthesis-userjourney 2.png"
+              alt="Huan's User Journey"
+              class="user-journey"
+            />
           </div>
         </div>
-      </container>
-      <container class="container-divider">
-        <h1>HOW MIGHT WE</h1>
-        <h3>Cure lonelineness and depression -- feeling of disconnectedness</h3>
-        <h5>and</h5>
-        <h3>Fulfill the heightened desire to go outside - “travel”?</h3>
-      </container>
-      <container class="container-design">
+      </section>
+      <section class="section-divider">
+        <h1 class="storytelling-sentence italic align-center side-margin">HOW MIGHT WE</h1>
+        <h3 class="storytelling-sentence italic align-center side-margin">Cure lonelineness and depression -- feeling of disconnectedness</h3>
+        <h5 class="storytelling-sentence italic align-center side-margin">and</h5>
+        <h3 class="storytelling-sentence italic align-center side-margin">Fulfill the heightened desire to go outside - “travel”?</h3>
+      </section>
+      <section class="section-design side-margin" id="design">
         <h5 class="section-name">Design</h5>
         <div class="section-method-blocks">
           <div class="section-method-block">
             <h5 class="ux-method">Creativity vs. Feasibility Graph</h5>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-design-cfgraph.png"/>
+            <img
+              src="assets/images/portfolio/nomad/portfolio-nomad-design-cfgraph.png"
+            />
           </div>
           <div class="section-method-block">
             <h5 class="ux-method">Affinity Mapping</h5>
-            <img src="assets/images/portfolio/nomad/portfolio-nomad-design-affinitymapping.png"/>
+            <img
+              src="assets/images/portfolio/nomad/portfolio-nomad-design-affinitymapping.png"
+            />
           </div>
         </div>
-      </container>
-      <container class="container-divider">
-        <h3>
+      </section>
+      <section class="section-divider">
+        <h3 class="storytelling-sentence align-center">
           Although many of us cannot travel far from our hometown,
-          <br />we can secondhand experience people’s daily lives through visible radio <br />
-          where the creator show around their neighbors and freely talk to/with listeners.
+          <br />we can secondhand experience people’s daily lives through
+          visible radio <br />
+          where the creator show around their neighbors and freely talk to/with
+          listeners.
         </h3>
-      </container>
-      <container class="container-paintotouch">
+      </section>
+      <section class="section-paintotouch side-margin">
         <div>
           <h5 class="ux-method">User Needs</h5>
           <div class="ux-method-lists">
             <p>Boredom from the lockdown</p>
             <p>Unpredictability of video content before clicking</p>
-            <p>Fear to invasion of privacy </p>
+            <p>Fear to invasion of privacy</p>
             <p>Psychological Burden to create video content publicly</p>
             <p>Receival of unwanted direct messages (DMs)</p>
           </div>
@@ -303,13 +488,19 @@
           <div class="ux-method-lists">
             <p>Apply Gamification for amusement</p>
             <p>Apply predictable design system by sorting based on landscape</p>
-            <p>social media with minimizing personal info requirement (like Twitter!)</p>
-            <p>livestreaming like videochatting with the acquaintence but without face reveal</p>
+            <p>
+              social media with minimizing personal info requirement (like
+              Twitter!)
+            </p>
+            <p>
+              livestreaming like videochatting with the acquaintence but without
+              face reveal
+            </p>
             <p>Link to Other social media for deeper connection</p>
           </div>
         </div>
-      </container>
-      <container class="container-uxdesign">
+      </section>
+      <section class="section-uxdesign side-margin" id="ux-design">
         <h5 class="section-name">UX Design</h5>
         <div class="section-method-block">
           <h1 class="ux-method">Low-Fi Wireframes</h1>
@@ -319,15 +510,15 @@
           <h1 class="ux-method">UserFlow</h1>
           <img src="#" alt="userflow" />
         </div>
-      </container>
-      <container>
+      </section>
+      <section class="section-guidesign side-margin" id="gui-design">
         <h5 class="section-name">GUI Design</h5>
         <h5 class="ux-method">High-Fi GUI</h5>
         <h5 class="ux-method">Visual Design</h5>
-      </container>
-      <container class="container-prototype">
-      </container>
+      </section>
+      <section class="container-prototype side-margin" id="prototype"> </sect>
     </main>
+
     <footer class="footer">
       <div class="container footer-grid">
         <div class="logo-col">
@@ -343,8 +534,7 @@
               &copy; <span class="year">2021</span> by Yunbin Bae
             </p>
             <p class="copyright-belief">
-              With the belief in the power of <br />technology’s uniting people
-              & world
+              Embedding Humanity into the Technology
             </p>
           </div>
         </div>
@@ -353,16 +543,14 @@
           <p class="footer-heading">Contact Me</p>
           <address class="contacts">
             <div class="footer-contact">
-              <ion-icon class="contact-icon" name="location-outline"></ion-icon>
+              <!-- <ion-icon class="contact-icon" name="location-outline"></ion-icon> -->
               <p class="contacts">Seoul, South Korea</p>
             </div>
             <div class="footer-contact">
-              <ion-icon class="contact-icon" name="mail-outline"></ion-icon>
-              <p>
-                <a class="footer-link" href="mailto:yunbinbae.bb@gmail.com"
-                  >yunbinbae.bb@gmail.com</a
-                >
-              </p>
+              <!-- <ion-icon class="contact-icon" name="mail-outline"></ion-icon> -->
+              <a class="footer-link" href="mailto:yunbinbae.bb@gmail.com"
+                >yunbinbae.bb@gmail.com</a
+              >
             </div>
             <div class="footer-contact">
               <p>
@@ -378,7 +566,7 @@
         </div>
 
         <div class="sns-col">
-          <p class="footer-heading">Follow Me Here</p>
+          <p class="footer-heading">Connect w/ Me</p>
           <ul class="social-links">
             <li>
               <a
@@ -401,11 +589,6 @@
                 ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
               ></a>
             </li>
-            <li>
-              <a class="footer-link" href="#" target="blank"
-                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
-              ></a>
-            </li>
             <!-- <li>
                         <a class="footer-link" href="#" target="blank"><ion-icon class="social-icon" name="logo-youtube"></ion-icon></a>
                     </li> -->
@@ -415,70 +598,58 @@
         <div class="nav-col">
           <p class="footer-heading">Navigation</p>
           <ul class="footer-nav">
-            <li>
-              <a class="footer-link main-nav-link" href="index.html" alt="Home"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer-link main-nav-link"
-                href="1-portfolio.html"
-                alt="Portfolio"
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a class="footer-link main-nav-link" href="2-lab.html" alt="Lab"
-                >Lab</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer-link main-nav-link"
-                href="3-writings.html"
-                alt="Writings"
-                >Writings</a
-              >
-            </li>
-            <li>
-              <a class="footer-link main-nav-link" href="4-love.html" alt="Love"
-                >Love</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer-link main-nav-link"
-                href="5-profile.html"
-                alt="Profile"
-                >Profile</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer-link main-nav-link"
-                href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing"
-                target="_blank"
-                alt="Resume"
-                >Resume</a
-              >
-            </li>
+            <div>
+              <li>
+                <a
+                  class="footer-link main-nav-link"
+                  href="index.html"
+                  alt="Home"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link main-nav-link"
+                  href="1-portfolio.html"
+                  alt="Portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a class="footer-link main-nav-link" href="2-lab.html" alt="Lab"
+                  >Lab</a
+                >
+              </li>
+            </div>
+            <div>
+              <li>
+                <a
+                  class="footer-link main-nav-link"
+                  href="3-writings.html"
+                  alt="Writings"
+                  >Writings</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link main-nav-link"
+                  href="4-love.html"
+                  alt="Love"
+                  >Love</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link main-nav-link"
+                  href="5-profile.html"
+                  alt="Profile"
+                  >Profile</a
+                >
+              </li>
+            </div>
           </ul>
         </div>
       </div>
     </footer>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script
-      defer
-      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
-    ></script>
-    <script defer src="script.js"></script>
   </body>
 </html>

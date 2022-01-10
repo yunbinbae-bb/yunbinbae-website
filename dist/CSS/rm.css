@@ -1,6 +1,14 @@
 /* setting */
 
-.content {
+html {
+  background-color: #f9f9f9;
+}
+
+.header {
+  margin-bottom: 9.6rem;
+}
+
+.containers {
   margin: 0 9.6rem;
 }
 

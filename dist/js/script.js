@@ -17,17 +17,34 @@ btnNavEl.addEventListener('click', function () {
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation
 
-// const allLogoLinks = document.querySelectorAll('.logo');
-// allLogoLinks.forEach(function (logo) {
-//     logo.addEventListener('click', function (e) {
-//         e.preventDefault();
-//         sectionEl.scrollIntoView({ behavior: 'smooth' });
-//     });
+// const allLinks = document.querySelectorAll("a:link");
+
+// allLinks.forEach(function (link) {
+//   link.addEventListener('click', function (e) {
+//     // e.preventDefault();
+//     const href = link.getAttribute('href');
+//     console.log(href);
+//     // Scroll back to top
+//     if (href === "index.html")
+//       window.scrollTo({
+//         top: 0,
+//         behavior: 'smooth'
+//       });
+//   });
 // });
 
-// Close Mobile Navigation
-//     if (link.classList.contains('main-nav-link'))
-//       headerEl.classList.toggle('nav-open');
+// const allSideNavMenu = document.querySelectorAll("id");
+
+// allSideNavMenu.forEach(function (sidenav) {
+//   link.addEventListener('click', function (e) {
+//     e.preventDefault();
+//     const id = link.getAttribute("id");
+//     if (id === "context")
+//       window.scrollTo({
+//         behavior: 'smooth'
+//       })
+//   }
+// }
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
@@ -74,7 +91,7 @@ obs.observe(sectionHeroEl);
 ///////////////////////////////////////////////////////////
 // Making the nav tab bar have descriptions when the user leaves the page for a while
 var pageTitle = document.title;
-var attentionMessage = 'Missing you...';
+var attentionMessage = 'Miss you...';
 
 document.addEventListener('visibilitychange', function (e) {
   var isPageActive = !document.hidden;
@@ -86,27 +103,27 @@ document.addEventListener('visibilitychange', function (e) {
   }
 });
 
-function fnImgPop(url) {
-  var img = new Image();
-  img.src = url;
-  var img_width = img.width;
-  var win_width = img.width + 25;
-  var img_height = img.height;
-  var win = img.height + 30;
-  var OpenWindow = window.open(
-    '',
-    '_blank',
-    'width=' +
-      img_width +
-      ', height=' +
-      img_height +
-      ', menubars=no, scrollbars=auto'
-  );
-  OpenWindow.document.write(
-    "<style>body{margin:0px;}</style><img src='" +
-      url +
-      "' width='" +
-      win_width +
-      "'>"
-  );
-}
+// function fnImgPop(url) {
+//   var img = new Image();
+//   img.src = url;
+//   var img_width = img.width;
+//   var win_width = img.width + 25;
+//   var img_height = img.height;
+//   var win = img.height + 30;
+//   var OpenWindow = window.open(
+//     '',
+//     '_blank',
+//     'width=' +
+//       img_width +
+//       ', height=' +
+//       img_height +
+//       ', menubars=no, scrollbars=auto'
+//   );
+//   OpenWindow.document.write(
+//     "<style>body{margin:0px;}</style><img src='" +
+//       url +
+//       "' width='" +
+//       win_width +
+//       "'>"
+//   );
+// }

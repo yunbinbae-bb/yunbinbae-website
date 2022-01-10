@@ -42,7 +42,7 @@
   .main-nav {
     background-color: #d4d4cb;
     /* -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px); */
     position: absolute;
     /* in relation to the header {position: relative} (Parent element) */
     top: 0;
