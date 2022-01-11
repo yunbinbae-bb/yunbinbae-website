@@ -490,7 +490,7 @@ li {
 .survey-block-pngs {
   display: flex;
   width: 25%;
-  margin: 0 42rem 0 42rem;
+  margin: 0 auto;
   justify-content: center;
 }
 
