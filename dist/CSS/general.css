@@ -334,7 +334,7 @@ h5 {
 }
 
 .footer-logo {
-  display: inline-block;
+  display: block;
   width: 35%;
   text-align: center;
   margin-bottom: 0.4rem;

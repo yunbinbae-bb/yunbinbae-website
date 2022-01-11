@@ -28,7 +28,7 @@ h5 {
 
 p {
   font-family: 'Nunito Sans', sans-serif;
-  color: #1e1e1e;
+  color: #575755;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.5;
@@ -40,6 +40,10 @@ li {
 
 .header {
   margin-bottom: 1.4rem;
+}
+
+.side-margin {
+  margin: 0 42rem;
 }
 
 .side-nav-lists {
@@ -69,7 +73,7 @@ li {
 .side-nav-link:link,
 .side-nav-link:visited {
   text-decoration: none;
-  color: #4a4a4a;
+  color: #929286;
   transition: all 0.08s ease-in-out;
 }
 
@@ -84,24 +88,16 @@ li {
 }
 
 .side-nav-icon {
-  height: 1rem;
-  width: 1rem;
-  /* color: #1e1e1e; */
-}
-
-.side-margin {
-  margin: 0 44rem;
-}
-
-.section-method {
-  margin-bottom: 10rem;
+  height: 0.8rem;
+  width: 0.8rem;
+  padding-right: 0.8rem;
 }
 
 .link:link,
 .link:visited {
   text-decoration: none;
   font-weight: 500;
-  color: #1e1e1e;
+  color: #575755;
   transition: all 0.08s ease-in-out;
 }
 
@@ -122,14 +118,34 @@ li {
   width: 35%;
 }
 
-/* ITERATIVE STYLES */
+/* //////////////// ITERATIVE STYLES ////////////////*/
+
+.section-method {
+  margin-bottom: 10rem;
+}
 
 .section-divider {
-  background-color: #8d8d8d;
+  background-color: #d4d4cb;
+  display: block;
+  padding: 3.2rem auto;
+}
+
+.divider-sentence {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.6;
+  /* margin-bottom: 1.2rem; */
+  color: #575755;
+}
+
+.hmw {
+  font-family: baskerville-urw, serif;
+  font-size: 4.4rem;
 }
 
 .section-method-blocks {
   display: flex;
+  justify-content: space-between;
 }
 
 .section-method-block {
@@ -163,7 +179,35 @@ li {
   margin-right: 1.2rem;
   font-size: 1.4rem;
   font-weight: 500;
-  padding-bottom: 0.8rem;
+  padding-bottom: 1.6rem;
+}
+
+.hover-question-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.hover-question-word {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hover-predictability {
+  position: absolute;
+  top: 420rem;
+  right: 30rem;
+}
+
+.hover-predictability:hover,
+.hover-predictability:active {
+}
+
+.hover-privacy {
+  position: absolute;
+  top: 425rem;
+  right: 30rem;
 }
 
 .link {
@@ -197,6 +241,17 @@ li {
 
 .align-center {
   text-align: center;
+}
+
+.button {
+  margin-right: 8px;
+  margin-bottom: 4px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  color: #575755;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 /* /////////////// PROJECT //////////////////////*/
@@ -245,8 +300,19 @@ li {
 }
 
 .project-info-details {
+  color: #1e1e1e;
   font-size: 1.4rem;
   font-weight: 600;
+}
+
+.title-link {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+.title-link:hover,
+.title-link:active {
+  font-weight: bold;
 }
 
 .project-info-roles {
@@ -265,16 +331,18 @@ li {
 }
 
 .project-maintitle {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
+  font-family: baskerville-urw, serif;
   font-weight: 900;
+  font-style: normal;
+  font-size: 4.4rem;
   margin-bottom: 1.4rem;
 }
 
 .project-subtitle {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.4rem;
   font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
   margin-bottom: 1.4rem;
 }
 
@@ -312,7 +380,6 @@ li {
   margin-bottom: 0.8rem;
 }
 
-.storytelling-summary,
 .overview-paragraph {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1.6rem;
@@ -339,11 +406,23 @@ li {
   margin-bottom: 1.2rem;
 }
 
+.storytelling-summary-sub {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
 .storytelling-sentence-sub {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 6.4rem;
+}
+
+.storytelling-summary {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 /* GENERATIVE RESEARCH */
@@ -364,9 +443,17 @@ li {
   margin-right: 2rem;
 }
 
-/* /////////////// COMPETITORS  */
+/* /////////////// COMPETITORS /////////////// */
+
+.competitors-summary-img-1,
+.competitors-summary-img-2 {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+}
+
 .competitors-summary-img-1 {
-  width: 50%;
+  padding-bottom: 6rem;
 }
 
 .competitors-1-2 {
@@ -374,21 +461,72 @@ li {
 }
 
 /* /////////////// INTERVIEWS /////////////// */
+.ux-method-findings-blocks {
+  display: flex;
+  /* align-items: center; */
+}
+
+.ux-method-findings {
+  display: block;
+  margin-right: 2.8rem;
+}
+
 .ux-method-findings-title {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding-bottom: 0.8rem;
+}
+
+.ux-method-findings-paragraphs {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  display: block;
 }
 
 /* /////////////// SYNTHESIS /////////////// */
 
 /* /////////////// PERSONA  */
 .persona-img {
-  width: 70%;
+  /* display: block; */
+  width: 100%;
+}
+
+.persona-sentence {
+  margin-bottom: 0.2rem;
+}
+
+.highlight {
+  font-weight: 700;
+}
+
+.ux-method-blocks {
+  padding-bottom: 9.6rem;
+}
+
+.ux-method-block {
+  display: block;
+  margin-right: 4.8rem;
 }
 
 /* /////////////// USER JOURNEY  */
 .user-journey {
   width: 100%;
 }
-.journey-blocks {
-  display: flex;
+
+.ux-method-sub {
+  font-family: 'Montserrat', sans-serif;
+  color: #1e1e1e;
+  font-size: 2.8rem;
+  font-weight: 900;
+  padding-bottom: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.method-margin-bottom {
+  padding-bottom: 9.6rem;
+}
+
+.hover-explanation {
 }

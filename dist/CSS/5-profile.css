@@ -10,6 +10,10 @@
   margin: 0 auto;
 }
 
+main {
+  margin-top: 12rem;
+}
+
 .profile-img-source {
   font-size: 1.2rem;
   color: #575755;

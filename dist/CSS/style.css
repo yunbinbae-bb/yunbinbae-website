@@ -6,14 +6,21 @@
   margin-bottom: 0;
 }
 
-.header-img {
+/* .header-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
   height: auto;
   padding: 40px;
-  /* background-color: #c6c6b6; */
+} */
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url('/dist/assets/images/header-home-removebg.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .logo {
@@ -21,12 +28,11 @@
   width: 18%;
 }
 
-.footer-logo {
-  display: block;
-  width: 35%;
+.main {
+  margin: 10rem 6rem;
 }
 
-.yunbin-bae {
+/* .yunbin-bae {
   position: absolute;
   top: 120px;
   left: 24rem;
@@ -52,8 +58,9 @@
   line-height: -1.4%;
   letter-spacing: -0.1rem;
   margin-bottom: 3.2rem;
-}
-
+} */
+.yunbin-bae,
+.does,
 .product-designer {
   font-size: 10rem;
   /* animation: color-change 3s infinite; */
