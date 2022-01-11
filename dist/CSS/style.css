@@ -209,7 +209,7 @@ body {
 
 .project-name {
   font-size: 3.6rem;
-  color: #575755;
+  color: #1e1e1e;
 }
 
 .project-name-title {
@@ -223,7 +223,7 @@ body {
   font-size: 1.6rem;
   display: block;
   width: 80%;
-  color: #575755;
+  color: #1e1e1e;
   font-weight: 400;
   line-height: 1.6;
   padding-bottom: 0.8rem;
@@ -231,7 +231,7 @@ body {
 
 .project-name:link,
 .project-name:visited {
-  color: #575755;
+  color: #1e1e1e;
   text-decoration: none;
   transition: all 0.08s ease-in;
 }
@@ -247,7 +247,7 @@ body {
 .project-info {
   display: block;
   width: 80%;
-  color: #575755;
+  color: #1e1e1e;
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.6;
@@ -287,3 +287,11 @@ body {
   padding: 6px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } */
+
+.section-portfolio {
+  display: block;
+  background-color: rgba(249, 249, 249, 0.5);
+  border-radius: 4.6rem;
+  padding-left: 6.4rem;
+  padding-bottom: 6.4rem;
+}

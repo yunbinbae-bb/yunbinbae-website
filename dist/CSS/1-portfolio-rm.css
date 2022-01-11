@@ -1,0 +1,451 @@
+/* ///////////////////////// SETTING ///////////////////////// */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: #f9f9f9;
+}
+
+section {
+  display: block;
+  margin-bottom: 14rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1e1e1e;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #575755;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+.method-margin-bottom {
+  padding-bottom: 9.6rem;
+}
+
+.header {
+  margin-bottom: 1.4rem;
+}
+
+.side-margin {
+  margin: 0 42rem;
+}
+
+.side-nav-lists {
+  font-family: baskerville-urw, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  gap: 1.6rem;
+  list-style: none;
+  text-align: left;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.side-nav-list {
+  font-family: baskerville-urw, serif;
+  align-items: center;
+}
+
+.side-nav-link {
+  font-family: baskerville-urw, serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.side-nav-link:link,
+.side-nav-link:visited {
+  text-decoration: none;
+  color: #929286;
+  transition: all 0.08s ease-in-out;
+}
+
+.side-nav-link:hover,
+.side-nav-link:active {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #e87956;
+  cursor: pointer;
+  transition: all 0.08s ease-in-out;
+}
+
+.side-nav-icon {
+  height: 0.8rem;
+  width: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  font-weight: 500;
+  color: #575755;
+  transition: all 0.08s ease-in-out;
+}
+
+.link:hover,
+.link:active {
+  text-decoration: none;
+  color: #e87956;
+  transition: all 0.08s ease-in-out;
+}
+
+.logo {
+  display: block;
+  width: 18%;
+}
+
+.footer-logo {
+  display: block;
+  width: 35%;
+}
+
+/* //////////////// ITERATIVE STYLES ////////////////*/
+
+.section-method {
+  margin-bottom: 10rem;
+}
+
+.section-divider {
+  background-color: #e9e9e3;
+  display: block;
+  padding: 4.4rem;
+  margin-top: 10rem;
+}
+
+.divider-sentence {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.6;
+  /* margin-bottom: 1.2rem; */
+  color: #575755;
+}
+
+.divider-sentence-sub {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.hmw {
+  font-family: baskerville-urw, serif;
+  font-size: 4.4rem;
+  display: block;
+  padding-bottom: 4.4rem;
+}
+
+.title-padding-bottom {
+  margin-bottom: 2rem;
+}
+
+.section-method-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-method-block {
+  display: block;
+}
+
+.section-name {
+  font-family: baskerville-urw, serif;
+  color: #e87956;
+  font-size: 2rem;
+  font-weight: 800;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  margin-top: 12rem;
+}
+
+.ux-method {
+  font-family: 'Montserrat', sans-serif;
+  color: #1e1e1e;
+  font-size: 3.2rem;
+  font-weight: 800;
+  padding-bottom: 1.2rem;
+}
+
+.ux-method-infos {
+  display: flex;
+}
+
+.ux-method-info {
+  display: block;
+  margin-right: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-bottom: 1.6rem;
+}
+
+.link {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.storytelling-summary,
+.ux-method-summary {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.excerpt-source {
+  color: #8d8d8d;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.button {
+  margin-right: 8px;
+  margin-bottom: 4px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  color: #575755;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* /////////////// PROJECT //////////////////////*/
+
+.section-project {
+  padding-bottom: 4rem;
+}
+
+.project-header-title-info {
+  display: block;
+  margin: 0 10rem;
+}
+
+.project-header-img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  /* margin-bottom: 4rem; */
+}
+
+.section-project {
+  display: block;
+  background-color: #e87956;
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-title-blocks {
+  display: block;
+  margin-bottom: 4.8rem;
+}
+
+.project-info-blocks {
+  display: flex;
+}
+
+.project-info-block {
+  display: block;
+  margin-right: 7.8rem;
+}
+
+.project-info {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.project-info-details {
+  color: #1e1e1e;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.title-link {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+.title-link:hover,
+.title-link:active {
+  font-weight: bold;
+}
+
+.project-info-roles {
+  display: block;
+  width: 48rem;
+}
+
+.project-focus-areas {
+  display: flex;
+  /* margin-right: 2.4rem; */
+}
+
+.project-focus-area {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.project-maintitle {
+  font-family: baskerville-urw, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 4.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.project-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.4rem;
+}
+
+.project-hashtags {
+  display: flex;
+}
+
+.project-hashtag {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
+  display: block;
+  margin-right: 2rem;
+}
+
+/* ///////////////////////// OVERVIEW /////////////////////////*/
+
+.section-overview {
+  display: block;
+  margin-bottom: 16rem;
+}
+
+.overview-blocks {
+  display: flex;
+}
+
+.overview-block {
+  display: block;
+  margin-right: 2.4rem;
+}
+
+.overview-title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.overview-paragraph {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+/* ///////////////////////// CONTEXT /////////////////////////*/
+
+.storytelling-block {
+  margin-bottom: 8rem;
+}
+
+.storytelling-intro {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 6.4rem;
+}
+
+.storytelling-sentence {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 1.2rem;
+}
+
+.storytelling-summary-sub {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.storytelling-sentence-sub {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 6.4rem;
+}
+
+.storytelling-summary {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* /////////////// THEORY /////////////// */
+
+/* Previous... */
+
+.project-maintitle {
+  font-size: 5.2rem;
+  font-weight: 800;
+}
+
+.project-subtitle {
+  font-size: 3.6rem;
+}
+
+.pdf-button {
+  display: block;
+  padding: 3rem;
+}
+
+.content-overview {
+  display: block;
+  margin-bottom: 3.6rem;
+}
+
+.overview-title {
+  font-size: 2.4rem;
+}
+
+.overview-details {
+  margin-bottom: 2.4rem;
+}

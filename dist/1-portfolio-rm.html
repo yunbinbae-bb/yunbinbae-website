@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon-512.png" />
+    <link
+      rel="apple-touch-icon"
+      href="assets/images/apple-touch-icon-180.png"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <!-- Baskerville Adobe Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/xpv3nqu.css">
+    <!-- Proza Libre Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&gidisplay=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="/dist/assets/images/favicon.png"
+    />
+    <link rel="stylesheet" href="CSS/general.css"/>
+    <link rel="stylesheet" href="CSS/queries.css"/>
+    <link rel="stylesheet" href="CSS/1-portfolio-rm.css"/>
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script
+    defer
+    src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+  ></script>
+  <script defer src="js/script.js"></script>
+
+  <title>Relief's Map</title>
+  </head>
+</html>
+
+  <body>
+    <header class="header">
+      <!-- sticky... -->
+      <a class="header-logo logo" href="index.html" id="home-logo">
+        <img
+        src="assets/images/logo-Bae-circle.png"
+        alt="logo"
+        class="logo"
+      />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="1-portfolio.html" class="main-nav-link header-link"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="2-lab.html" class="main-nav-link header-link">Lab</a>
+          </li>
+          <li>
+            <a href="3-writings.html" class="main-nav-link header-link">Writings</a>
+          </li>
+          <li>
+            <a href="4-love.html" class="main-nav-link header-link"
+              >Love</a
+            >
+          </li>
+          <li>
+            <a href="5-profile.html" class="main-nav-link header-link"
+              >Profile</a
+            >
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing"
+            target="_blank" class="main-nav-link header-link"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main class="sections">
+      <nav class="side-nav">
+        <ul class="side-nav-lists">
+          <li>
+            <a href="#overview" class="side-nav-link"><ion-icon name="ellipse" class="side-nav-icon"></ion-icon>Overview</a>
+          </li>
+          <li class="side-nav-list">
+            <a href="#context" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon> Context</a
+            >
+          </li>
+          <li>
+            <a href="#research-question" class="side-nav-link"><ion-icon name="ellipse" class="side-nav-icon"></ion-icon>Research Question</a>
+          </li>
+          <li>
+            <a href="#theory" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon> Theoretical Framework</a
+            >
+          </li>
+          <li>
+            <a href="#research-methodology" class="side-nav-link">
+            <ion-icon name="ellipse" class="side-nav-icon"></ion-icon>
+            Research Methodology</a>
+          </li>
+          <li>
+            <a href="#app-analysis" class="side-nav-link">
+            <ion-icon name="ellipse" class="side-nav-icon"></ion-icon>
+            Product Analysis</a>
+          </li>
+          <li>
+            <a href="#redesign" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon>
+            ReDesign</a
+            >
+          </li>
+          <li>
+            <a href="#prototype" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon> Prototype</a
+            >
+          </li>
+          <li>
+            <a href="#evaluation" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon> Evaluation</a
+            >
+          </li>
+          <li>
+            <a href="#reflection" class="side-nav-link"
+              ><ion-icon name="ellipse" class="side-nav-icon"></ion-icon> Reflection</a
+            >
+          </li>
+        </ul>
+        <!-- <button type="button" class="button"><a href="rm.html" class="button-link">Previous</a></button> -->
+      </nav>
+      <section class="section-project">
+        <img src="assets/images/portfolio/nomad/test-header.png" alt="header image" class="project-header-img" />
+        <div class="project-header-title-info">
+          <div class="project-title-blocks">
+            <div class="project-focus-areas">
+              <h5 class="project-focus-area button">UX Case Study</h5>
+              <h5 class="project-focus-area button">UX Research</h5>
+              <h5 class="project-focus-area button">Corporation MeetUp</h5>
+            </div>
+            <h1 class="project-maintitle">
+              Spy Camera Detector, “Relief’s Map”
+            </h1>
+            <h1 class="project-subtitle">
+              Social Trust and Learned Helplessness as Social Innovation Design Elements
+            </h1>
+          <div class="project-hashtags">
+            <h3 class="project-hashtag">#Social Innovation Design</h3>
+            <h3 class="project-hashtag">#Social Trust</h3>
+            <h3 class="project-hashtag"># Community Engagement</h3> 
+            <h3 class="project-hashtag"># Women's Fear &amp; Helplessness</h3>
+          </div>
+          </div>
+          <div class="project-info-blocks">
+            <div class="project-info-block project-info-roles">
+              <h5 class="project-info">Roles and Responsibilities</h5>
+              <p class="project-info-details">Researcher: user research of survey, interviews, affinity mapping, and corporation meetup</p>
+              <p class="project-info-details">Designer: sketched, wire-framed, and high-fidelity prototyped the UX/UI</p>
+            </div>
+            <div class="project-info-block">
+              <h5 class="project-info">Project Context</h5>
+              <p class="project-info-details">Individual Project</p>
+              <p class="project-info-details">Time: Ongoing Project[Oct 2021 - ]</p>
+              <p class="project-info-details">Link:
+                <a href="#" alt="Prototyping link" target="_blank" class="title-link"
+                  >Prototyping</a
+                ></p>
+            </div>
+            <div class="project-info-block">
+              <h5 class="project-info">Tools Used</h5>
+              <p class="project-info-details">Figma</p>
+              <p class="project-info-details">ProtoPie</p>
+              <p class="project-info-details">Illustrator</p>
+              <p class="project-info-details">LucidChart</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-overview side-margin" id="overview">
+        <h5 class="section-name">01. Project Overview</h5>
+          <div class="overview-block">
+            <h2 class="overview-title">Abstract</h2>
+            <p class="overview-paragraph">
+              I analyzed how this spy camera detector application offers vague means to understand <span>women’s safety</span> from spy cameras in Korea, and additionally how it wields the potential to <span>abuse women’s fear and learned helplessness</span>. Since the minority <span>group’s social psychology</span> center around these feelings, it should be acknowledged as the design elements when aiming for social impact. 
+              Furthermore, this acknowledgement should be followed by continuous <span>trust work</span> between the application operators and the users, or the <span>citizens</span>.
+            <h2 class="overview-title">Problem</h2>
+            <p class="overview-paragraph">
+              1. Is it possible for the application to help solve social problems when the targeted user group is emotionally unavailable to use the app actively? <br />
+              2. Can the design solve social problems?
+            </p>
+          </div>
+          <div class="overview-block">
+            <h2 class="overview-title">Goal</h2>
+            <p class="overview-paragraph">
+              Although social trust cannot be directly inserted or designed into a system, design could create a better world by designing an environment that would encourage the emergence of trust. 
+            </p>
+          </div>
+      </section>
+      <section class="section-context side-margin" id="context">
+        <h5 class="section-name">02. Context</h5>
+        <h2 class="storytelling-sentence align-center italic">
+          Epidemic Spy Cam Porn in South Korea, 
+          <br />
+          80% of the victims being women
+        </h2>
+        <div class="context-images grid grid--3-cols">
+          <img src="assets/images/portfolio/rm/portfolio-rm-context-1.png" alt="2018 protest" class="context-img"/>
+        <img src="assets/images/portfolio/rm/portfolio-rm-context-2.png" alt="holes for spy cam installation in public toilet" class="context-img"/>
+        <img src="assets/images/portfolio/rm/portfolio-rm-context-3.png" alt="detecting spy cam installation in women's public toilet" class="context-img"/>
+        </div>
+        <p class="storytelling-summary-sub">
+          Many South Korean women routinely check for cameras when using public facilities. 8 out of 10 women habitually check out peepholes or hidden cameras in public places, especially public toilet.
+        </p>
+        <h4 class="storytelling-sentence-sub align-center">
+          “Molka” Google Search Trend
+        </h4>
+        <p class="excerpt-source">
+          * molka: miniature cameras secretly and illegally installed in order to capture voyeuristic images and video of women
+        closely related to my safety
+        </p>
+        <img src="" alt="molka google search trend"/>
+        <h4 class="storytelling-sentence-sub align-center">
+          Spy Camera Detector Relief’s Map was Launced in May, 2020.
+        </h4>
+        <img src="" alt="Relief's Map logo" />
+        <ul>
+          <li>
+            an application run by for-profit corporation sPresto based in Seoul, South Korea
+          </li>
+          <li>
+            made by a Korean man named Dong-Hyun Son and managed predominantly by man
+          </li>
+          <li>
+            From these facts, fair to assume that their targeted user group is 20s - 30s Korean women 
+          </li>
+        </ul>
+        <h4 class="storytelling-sentence-sub align-center">
+          ranking first place, but soon fell and never recovered, even when its (proposed) service was conceived to be in great demand.
+        </h4>
+        
+      </section>
+      <section class="section-divider" id="research-question">
+        <h1 class="divider-sentence italic align-center side-margin hmw">HOW MIGHT WE</h1>
+        <h3 class="divider-sentence italic align-center side-margin">solve social problems 
+          when the targeted user group is 
+          emotionally unavailable to use the app actively?</h3>
+          <h3 class="divider-sentence italic align-center side-margin">
+            Can Design Solve Social Problems?
+          </h3>
+      </section>
+      <section class="section-theory side-margin" id="theory" id="theory">
+        <h5 class="section-name">03. Theoretical Framework</h5>
+        <div class="theory section-method">
+          <h5 class="ux-method">Korean Women’s Three Social Psychologies</h5>
+          <p class="ux-method-info">
+            When the human’s basic desire to autonomously govern their world is largely betrayed by a discriminative social environment, negative psychology is produced. Therefore, this negative psychology is easily attached to the people of minority communities. They are much more susceptible to negative feelings like frustration, helplessness, fear, and depression-- stemming from intangible stigmatization and physical threats. 
+          </p>
+          <div class="emotions grid grid--3-cols">
+            <div class="emotion">
+              <h3 class="subtitle">Fear</h3>
+              <p>Daily feeling of being in danger in regards to the epidemic of spy cameras</p>
+            </div>
+            <div class="emotion">
+              <h3 class="subtitle">Learned Helplessness</h3>
+              <p>Feeling stemming from the notion that society cannot be changed with individual’s effort</p>
+              
+            </div>
+            <div class="emotion">
+              <h3 class="subtitle">Indignation</h3>
+              <p>Feelings of resentment against sexism and gender discrimination, often resulting to forming social movement and protest</p>
+            </div>
+          </div>
+        </div>
+        <div class="theory section-method">
+          <h5 class="ux-method">Social Trust engendered by design</h5>
+          <p>
+            When technology is not built with consideration of the minority group, this exclusion will engender the reluctance to adopt the technology, particularly for the minority group members, as people can sense that the technology is not intended for them to utilize. On the other hand, appropriate relational association between the application administrators and the users (who are most likely to be Korean women) would engender social trust, which would lead these people to become actual users. 
+          </p>
+          <p class="storytelling-sentence-sub align-center">
+            Trust in design is how one forms expectations, which makes one "leap" over fear and into uncertainty.
+          </p>
+          <h3 class="subtitle">Trust Work</h3>
+          <p>: close the distance between the technology -- the application administrators -- the user group.
+</p>
+          <p>: close the distance between Relief’s Map’s administrators (who are predominently men) -- Korean Women.</p>
+          <p class="storytelling-sentence-sub align-center">
+            Relief’s Map should implement Trust Work within Design, considering Pervasive Distrust within Korean women on the society and men in general.
+          </p>
+        </div>
+      </section>
+      <section class="section-divider">
+        <h1 class="divider-sentence italic align-center side-margin hmw">HOW MIGHT WE</h1>
+        <h3 class="divider-sentence italic align-center side-margin">Design With Trust?</h3>
+        <h3 class="divider-sentence italic align-center side-margin">Step 1. Find the sociocultural sources of distrust in the design using ethnographic methodology.</h3>
+        <h3 class="divider-sentence italic align-center side-margin">Step 2. Identify the sociotechnical design components of that distrust.</h3>
+      </section>
+      <section class="section-methodology side-margin" id="research-methodology">
+        <h5 class="section-name">04. Research Methodology</h5>
+        <h3 class="subtitle">
+          Ethnographic Methodology
+        </h3>
+        <div class="section-method-block method-margin-bottom">
+          <ul>
+            <li>Initial Survey</li>
+            <li>79 participants</li>
+            <li>Oct 6th - 15th 2021</li>
+          </ul>
+          <ul>
+            <li>One-on-One Interviews</li>
+            <li>5 interviewees</li>
+            <li>Oct 16th - 30th 2021</li>
+          </ul>
+          <ul>
+            <li>Online Ethnography</li>
+            <li>App Reviews &amp; User Articles</li>
+          </ul>
+        </div>
+        <div class="section-method-block method-margin-bottom">
+          <h3 class="subtitle">Define User Community</h3>
+          <p>
+            Individuals who share broad geographical  proximity - South Korea. 
+            Korean women’s shared sentiment on the issue of spy cameras and their former experience (either direct or indirect) of forming online feminist community and activisms enables this research to consider them as a singular user group.
+          </p>
+        </div>
+        <div class="section-method-block method-margin-bottom">
+          <h3 class="subtitle">Initial Survey Sample Questions</h3>
+          <p class="excerpt-source">* Participants are who identify as Korean women and currently reside in South Korea</p>
+          <p>
+            URL: 
+            <a href="#">response spreadsheet</a>
+            <a href="#">survey question lists</a>
+          </p>
+          <!-- sample questions -->
+          <h4>Do you consider "molka" as a problem that is closely related to yourself or your safety?</h4>
+          It is closely related to my personal safety (89%)
+          <img src="" alt="visualized response"/>
+
+          <h4>Check all the places where you feel anxious due to spy camera installations.</h4>
+          <p>public toilet (91%), street (61%), bars and nightclubs (56%), public transportation (49%), home (18%)</p>
+          <img src="" alt="visualized response"/>
+
+          <h4>
+            How frequently do you check your safety, or remind yourself of the manual in crime situations, when going to the places answered above?
+          </h4>
+          <p>
+            Always (19%), sometimes (47%), barely check (14%), I do not check because crimes occur regardless of whether I check them or not (20%)
+          </p>
+          <img src="" alt="visualized response"/>
+        </div>
+        <div class="section-method-block method-margin-bottom">
+          <h3 class="subtitle">One-On-One Interviews</h3>
+          <p class="excerpt-source">* All five interviewees are in the ages of 20s and born, raised, and have mainly lived in South Korea.</p>  
+        </div>
+      </section>
+      <section class="side-margin">
+        <h5 class="section-name">05. Product Analysis</h5>
+        <div class="section-method-block method-margin-bottom">
+          <h3 class="subtitle">Intended process of Relief’s Map</h3>
+          <img src="" alt="relief's map app process"/>
+        </div>
+        <div class="section-method-block method-margin-bottom">
+          <h3 class="subtitle">Five Main Features</h3>
+          <h5 class="mainfeature-name">Home</h5>
+          <h5 class="mainfeature-name">Map</h5>
+          <h5 class="mainfeature-name">Detection Camera</h5>
+          <h5 class="mainfeature-name">News Feed</h5>
+          <h5 class="mainfeature-name">Profile</h5>
+          <img src="" alt="app screenshot"/>
+        </div>
+      </section>
+      <section class="side-margin">
+        <h5 class="section-name">06. Redesign</h5>
+        <h3 class="subtitle">Step 1. Find the sociocultural sources of distrust in the design</h3>
+        <p>
+          From the user’s perspective.
+        </p>
+        <p>
+          From this work, I understood how distance impacts trust in the relationships between the targeted user group - Korean women - and application in the spy cam porn issues. I used these insights to drive the initial framing of the system at a high-level.
+        </p>
+      </section>
+      <section class="side-margin">
+        <h5 class="section-name">07. Prototype</h5>
+      </section>
+      <section class="side-margin">
+        <h5 class="section-name">08. Evaluation</h5>
+      </section>
+      <section class="side-margin">
+        <h5 class="section-name">09. Reflection</h5>
+      </section>
+    </main>
+
+  </body>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="logo-col">
+        <a href="index.html" class="footer-logo logo" id="home-logo">
+          <img
+            src="assets/images/logo-Bae-circle.png"
+            alt="logo"
+            class="footer-logo"
+          />
+        </a>
+        <div class="copyright">
+          <p class="copyright-name">
+            &copy; <span class="year">2021</span> by Yunbin Bae
+          </p>
+          <p class="copyright-belief">
+            Embedding Humanity into the Technology
+          </p>
+        </div>
+      </div>
+
+      <div class="contacts-col">
+        <p class="footer-heading">Contact Me</p>
+        <address class="contacts">
+          <div class="footer-contact">
+            <!-- <ion-icon class="contact-icon" name="location-outline"></ion-icon> -->
+            <p class="contacts">Seoul, South Korea</p>
+          </div>
+          <div class="footer-contact">
+            <!-- <ion-icon class="contact-icon" name="mail-outline"></ion-icon> -->
+            <a class="footer-link" href="mailto:yunbinbae.bb@gmail.com"
+              >yunbinbae.bb@gmail.com</a
+            >
+          </div>
+          <div class="footer-contact">
+            <p>
+              <a
+                class="footer-link resume"
+                href="https://drive.google.com/file/d/1Ut0TmGXGRCDp_are8boA3uJvcR76D8wJ/view?usp=sharing"
+                target="_blank"
+                >Download Resume</a
+              >
+            </p>
+          </div>
+        </address>
+      </div>
+
+      <div class="sns-col">
+        <p class="footer-heading">Connect w/ Me</p>
+        <ul class="social-links">
+          <li>
+            <a
+              class="footer-link"
+              href="https://dribbble.com/yunbinbae_bb"
+              target="blank"
+              ><ion-icon class="social-icon" name="logo-dribbble"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="footer-link" href="#" target="blank"
+              ><ion-icon class="social-icon" name="logo-medium"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer-link"
+              href="https://twitter.com/yunbinbae_bb"
+              target="blank"
+              ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <!-- <li>
+                      <a class="footer-link" href="#" target="blank"><ion-icon class="social-icon" name="logo-youtube"></ion-icon></a>
+                  </li> -->
+        </ul>
+      </div>
+
+      <div class="nav-col">
+        <p class="footer-heading">Navigation</p>
+        <ul class="footer-nav">
+          <div>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="index.html"
+                alt="Home"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="1-portfolio.html"
+                alt="Portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="footer-link main-nav-link" href="2-lab.html" alt="Lab"
+                >Lab</a
+              >
+            </li>
+          </div>
+          <div>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="3-writings.html"
+                alt="Writings"
+                >Writings</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="4-love.html"
+                alt="Love"
+                >Love</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-link main-nav-link"
+                href="5-profile.html"
+                alt="Profile"
+                >Profile</a
+              >
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  </body>
+</html>
