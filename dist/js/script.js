@@ -86,7 +86,7 @@ const obs = new IntersectionObserver(
     rootMargin: '-60px'
   }
 );
-obs.observe(sectionHeroEl);
+// obs.observe(sectionHeroEl);
 
 ///////////////////////////////////////////////////////////
 // Making the nav tab bar have descriptions when the user leaves the page for a while
