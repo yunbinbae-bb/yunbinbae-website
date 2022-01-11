@@ -38,6 +38,10 @@ li {
   list-style: none;
 }
 
+.method-margin-bottom {
+  padding-bottom: 9.6rem;
+}
+
 .header {
   margin-bottom: 1.4rem;
 }
@@ -82,7 +86,7 @@ li {
   text-decoration: none;
   font-weight: 700;
   font-size: 2rem;
-  color: #e2a4a6;
+  color: #f4d567;
   cursor: pointer;
   transition: all 0.08s ease-in-out;
 }
@@ -104,7 +108,7 @@ li {
 .link:hover,
 .link:active {
   text-decoration: none;
-  color: #e2a4a6;
+  color: #f4d567;
   transition: all 0.08s ease-in-out;
 }
 
@@ -125,22 +129,35 @@ li {
 }
 
 .section-divider {
-  background-color: #d4d4cb;
+  background-color: #e9e9e3;
   display: block;
-  padding: 3.2rem auto;
+  padding: 4.4rem;
+  margin-top: 10rem;
 }
 
 .divider-sentence {
-  font-size: 2.6rem;
-  font-weight: 600;
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 700;
   line-height: 1.6;
   /* margin-bottom: 1.2rem; */
   color: #575755;
 }
 
+.divider-sentence-sub {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
 .hmw {
   font-family: baskerville-urw, serif;
   font-size: 4.4rem;
+  display: block;
+  padding-bottom: 4.4rem;
+}
+
+.title-padding-bottom {
+  margin-bottom: 2rem;
 }
 
 .section-method-blocks {
@@ -154,7 +171,7 @@ li {
 
 .section-name {
   font-family: baskerville-urw, serif;
-  color: #e2a4a6;
+  color: #f4d567;
   font-size: 2rem;
   font-weight: 800;
   padding-top: 3.2rem;
@@ -194,21 +211,60 @@ li {
   font-weight: 500;
 }
 
-.hover-predictability {
+/* .hover-predictability {
   position: absolute;
   top: 420rem;
   right: 30rem;
+} */
+
+.visible {
+  font-size: 30px;
+  background: transparent;
+  text-align: center;
+  /* color: red; */
 }
 
-.hover-predictability:hover,
-.hover-predictability:active {
+.hidden-predictability {
+  display: none;
+  width: 26rem;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid #c4c4c4;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px #d5d5cb59;
+  font-size: 1.2rem;
+  /* position: absolute;
+  top: 408rem;
+  right: 16rem; */
 }
 
-.hover-privacy {
+.hidden-privacy {
+  display: none;
+  width: 26rem;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid #c4c4c4;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px #d5d5cb59;
+  font-size: 1.2rem;
+  /* position: absolute;
+  top: 430rem;
+  right: 16rem; */
+}
+
+.visible:hover .hidden-predictability {
+  display: block;
+}
+
+.visible:hover .hidden-privacy {
+  display: block;
+}
+
+/* .hover-privacy {
   position: absolute;
   top: 425rem;
   right: 30rem;
-}
+} */
 
 .link {
   font-size: 1.4rem;
@@ -274,7 +330,7 @@ li {
 
 .section-project {
   display: block;
-  background-color: #e2a4a6;
+  background-color: #ffe178;
   object-fit: cover;
   width: 100%;
 }
@@ -433,8 +489,8 @@ li {
 
 .survey-block-pngs {
   display: flex;
-  width: 20%;
-  margin: 0 auto;
+  width: 25%;
+  margin: 0 42rem 0 42rem;
   justify-content: center;
 }
 
@@ -445,10 +501,15 @@ li {
 
 /* /////////////// COMPETITORS /////////////// */
 
-.competitors-summary-img-1,
+.competitors-summary-img-1 {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
 .competitors-summary-img-2 {
   display: block;
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -507,26 +568,74 @@ li {
 
 .ux-method-block {
   display: block;
-  margin-right: 4.8rem;
+  margin-right: 6.4rem;
+}
+
+.frustrations {
+  display: flex;
+  flex-direction: column;
 }
 
 /* /////////////// USER JOURNEY  */
 .user-journey {
-  width: 100%;
+  display: block;
+  width: 70%;
+  /* margin: auto; */
 }
 
 .ux-method-sub {
   font-family: 'Montserrat', sans-serif;
   color: #1e1e1e;
-  font-size: 2.8rem;
-  font-weight: 900;
-  padding-bottom: 1.2rem;
-  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  text-align: center;
+  /* padding-bottom: 1.2rem; */
+  /* margin-bottom: 2rem; */
 }
 
-.method-margin-bottom {
-  padding-bottom: 9.6rem;
+/* .image-explanation {
+  padding-top: 2.4rem;
+} */
+
+/* .user-journey {
+  transition: all 0.2s ease-in-out;
 }
 
-.hover-explanation {
+.user-journey:hover {
+    transform: scale(2);
+  }
+} */
+
+/* /////////////// DIVIDER ///////////////  */
+
+/* /////////////// NEEDS & PAINPOINTS ///////////////  */
+
+.paintouch-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  color: #1e1e1e;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 1.4rem;
+  text-align: center;
+}
+
+.ux-method-lists {
+  display: block;
+  margin: 0 auto;
+}
+
+.ux-method-list {
+  display: block;
+  padding: 1.8rem;
+  border-radius: 2.8rem;
+  background-color: #d4d4cb;
+  border: 1px solid #d4d4cb;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+  text-align: center;
 }
