@@ -353,6 +353,27 @@ li {
   margin-right: 2rem;
 }
 
+.anchor-to-paper {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  display: block;
+  padding: 2rem;
+  border-radius: 24px;
+  background-color: #f9f9f9;
+}
+
+.anchor-to-paper:link,
+.anchor-to-paper:visited {
+  color: #1e1e1e;
+}
+
+.anchor-to-paper:hover,
+.anchor-to-paper:active {
+  color: #e87956;
+}
+
 /* ///////////////////////// OVERVIEW /////////////////////////*/
 
 .section-overview {
