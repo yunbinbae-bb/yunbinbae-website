@@ -474,3 +474,10 @@ li {
 .overview-details {
   margin-bottom: 2.4rem;
 }
+
+.trend {
+  .storytelling-sentence-sub {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
