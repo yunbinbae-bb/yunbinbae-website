@@ -444,6 +444,13 @@ li {
   line-height: 1.5;
 }
 
+.lists {
+  font-size: 1.4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 /* /////////////// THEORY /////////////// */
 
 /* Previous... */
@@ -475,9 +482,17 @@ li {
   margin-bottom: 2.4rem;
 }
 
-.trend {
-  .storytelling-sentence-sub {
+.diagram-img {
+  margin: 0 auto;
+}
+
+.storytelling-sentence-sub {
   font-size: 2.2rem;
   font-weight: 500;
   line-height: 1.2;
+}
+
+/* METHOD */
+.qna {
+  display: block;
 }
