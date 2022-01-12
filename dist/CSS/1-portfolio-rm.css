@@ -374,6 +374,10 @@ li {
   color: #e87956;
 }
 
+.subtitle-margin-top {
+  margin-top: 2.8rem;
+}
+
 /* ///////////////////////// OVERVIEW /////////////////////////*/
 
 .section-overview {
