@@ -140,16 +140,19 @@ li {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.6;
-  /* margin-bottom: 1.2rem; */
   color: #575755;
 }
 
 .divider-sentence-sub {
-  font-size: 1.6rem;
-  font-weight: 500;
+  color: #575755;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 
-.subtitle {
+.section-method {
   font-size: 2.4rem;
   font-weight: 500;
   margin-bottom: 0.8rem;
@@ -198,11 +201,22 @@ li {
 }
 
 .ux-method-info {
+  font-family: 'Nunito Sans', sans-serif;
   display: block;
   margin-right: 1.2rem;
-  font-size: 1.4rem;
-  font-weight: 500;
   padding-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.list-info {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-right: 1.2rem;
+  padding-bottom: 1.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 .link {
@@ -218,7 +232,7 @@ li {
 
 .excerpt-source {
   color: #8d8d8d;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
@@ -378,6 +392,11 @@ li {
   margin-top: 2.8rem;
 }
 
+.subtitle-margin-bottom {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
 /* ///////////////////////// OVERVIEW /////////////////////////*/
 
 .section-overview {
@@ -394,19 +413,49 @@ li {
   margin-right: 2.4rem;
 }
 
-.overview-title {
-  font-size: 2.2rem;
+.subtitle {
+  color: #1e1e1e;
+  font-size: 2.4rem;
   font-weight: 500;
   margin-bottom: 0.8rem;
 }
 
-.overview-paragraph {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.5;
-}
 /* ///////////////////////// CONTEXT /////////////////////////*/
+
+.context-news,
+.context-trend {
+  display: block;
+  margin-bottom: 16rem;
+}
+
+.context-trend {
+  display: block;
+  margin-bottom: 12rem;
+}
+
+.context-images {
+  display: flex;
+}
+
+.context-img {
+  width: 39rem;
+  height: 25rem;
+  margin-right: 2.4rem;
+}
+
+.intro-sentence {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+
+.intro-sentence-sub {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 3.2rem;
+}
 
 .storytelling-block {
   margin-bottom: 8rem;
@@ -445,10 +494,36 @@ li {
 }
 
 .lists {
-  font-size: 1.4rem;
+  display: block;
+  font-size: 1.8rem;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.6;
+}
+
+.list {
+  list-style: square;
+  color: #575755;
+}
+
+.rm-logo {
+  display: block;
+  margin-right: 4rem;
+  width: 10%;
+  height: 10%;
+}
+
+.rm-explain {
+  display: flex;
+  margin-right: 2.4rem;
+  margin-left: 6.4rem;
+}
+
+.search-trend {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 0.8rem;
 }
 
 /* /////////////// THEORY /////////////// */
@@ -485,10 +560,35 @@ li {
 .storytelling-sentence-sub {
   font-size: 2.2rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.6;
 }
 
-/* METHOD */
+.diagram-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.emotions {
+  margin-bottom: 10rem;
+  margin-top: 8rem;
+}
+
+.theory {
+  display: block;
+  margin-bottom: 12rem;
+}
+
+/* .definition {
+  display: block;
+  margin: 0 auto;
+} */
+
+/* .number-span {
+  font-style: italic;
+  font-size: 4.4rem;
+} */
+
+/* RESEARCH METHODOLOGY */
 .qna {
   display: block;
 }
