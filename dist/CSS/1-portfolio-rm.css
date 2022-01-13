@@ -29,7 +29,7 @@ h5 {
 p {
   font-family: 'Nunito Sans', sans-serif;
   color: #575755;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -198,6 +198,20 @@ li {
   font-size: 3.2rem;
   font-weight: 800;
   padding-bottom: 1.2rem;
+}
+
+.ux-method-blocks {
+  padding-bottom: 9.6rem;
+}
+
+.ux-method-block {
+  display: block;
+  margin-right: 6.4rem;
+}
+
+.ux-method-sub-block {
+  display: block;
+  margin-bottom: 3.2rem;
 }
 
 .ux-method-infos {
@@ -440,6 +454,7 @@ li {
 
 .context-images {
   display: flex;
+  /* align-content: center; */
 }
 
 .context-img {
@@ -656,4 +671,15 @@ li {
   width: 100%;
   display: block;
   margin: 4rem auto;
+}
+
+.conclusion-flexbox {
+  display: flex;
+}
+
+.company-img {
+  display: block;
+  width: 40%;
+  height: 40%;
+  border-radius: 36px;
 }
