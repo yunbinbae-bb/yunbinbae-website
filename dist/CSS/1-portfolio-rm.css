@@ -39,7 +39,7 @@ li {
 }
 
 .method-margin-bottom {
-  padding-bottom: 9.6rem;
+  padding-bottom: 4rem;
 }
 
 .header {
@@ -187,9 +187,8 @@ li {
   color: #e87956;
   font-size: 2rem;
   font-weight: 800;
-  padding-top: 3.2rem;
   padding-bottom: 3.2rem;
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 
 .ux-method {
@@ -425,10 +424,13 @@ li {
 
 /* ///////////////////////// OVERVIEW /////////////////////////*/
 
-.section-overview {
+section {
+  margin-bottom: 10rem;
+}
+/* .section-overview {
   display: block;
   margin-bottom: 16rem;
-}
+} */
 
 .overview-blocks {
   display: flex;
@@ -443,7 +445,7 @@ li {
   font-family: 'Nunito Sans', sans-serif;
   text-transform: capitalize;
   color: #1e1e1e;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   margin-bottom: 0.8rem;
 }
@@ -453,7 +455,7 @@ li {
 .context-news,
 .context-trend {
   display: block;
-  margin-bottom: 16rem;
+  margin-bottom: 8rem;
 }
 
 .context-trend {
@@ -617,7 +619,6 @@ li {
 
 .theory {
   display: block;
-  margin-bottom: 12rem;
 }
 
 .trust-work {
@@ -687,24 +688,13 @@ li {
   /* border-radius: 2.6rem; */
 }
 
-/* /////////////// REFLECTION ///////////////*/
-
-/* /////////////// CONCLUSION */
-
-.conclusion-flexbox {
-  display: flex;
-}
-
-.company-img {
-  display: block;
-  width: 40%;
-  height: 40%;
-  border-radius: 36px;
-}
-
-.conclusion-paragraph {
-  display: block;
-  margin-right: 4rem;
+.button-title {
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: capitalize;
+  color: #1e1e1e;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
 }
 
 .category-button {
@@ -743,10 +733,62 @@ li {
   margin: 0 auto;
 }
 
+.interview-citations {
+  display: block;
+}
+
 .flexbox {
   display: flex;
 }
 
 .design-screen {
   width: 50%;
+}
+
+.screenshot-2 {
+  display: block;
+  width: 30%;
+  margin-right: 2.4rem;
+}
+
+.design-screen {
+  display: block;
+  width: 30%;
+  margin-right: 2.4rem;
+}
+
+.comment4-5 {
+  display: flex;
+}
+
+.comment-4-img {
+  display: block;
+  margin-right: 4rem;
+  width: 50%;
+}
+
+.comment-5-img {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+/* /////////////// REFLECTION ///////////////*/
+
+/* /////////////// CONCLUSION */
+
+.conclusion-flexbox {
+  display: flex;
+}
+
+.company-img {
+  display: block;
+  width: 40%;
+  height: 40%;
+  border-radius: 36px;
+}
+
+.conclusion-paragraph {
+  display: block;
+  margin-right: 4rem;
 }
