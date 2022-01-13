@@ -823,18 +823,21 @@ section {
   margin-top: 6.4rem;
 }
 
-.interview-citations {
+.interview-quotes {
   display: block;
+}
+.interview-quote {
+  font-style: italic;
 }
 
 .flexbox {
   display: flex;
 }
 
-.screenshot-2 {
+.painpoint-5-img {
   display: block;
-  width: 30%;
-  margin-right: 2.4rem;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .design-screen {
