@@ -29,7 +29,7 @@ h5 {
 p {
   font-family: 'Nunito Sans', sans-serif;
   color: #575755;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -141,7 +141,7 @@ li {
 
 .divider-sentence {
   display: block;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.6;
   color: #575755;
@@ -149,7 +149,7 @@ li {
 
 .divider-sentence-sub {
   color: #575755;
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 3.2rem;
@@ -198,6 +198,7 @@ li {
   font-size: 3.2rem;
   font-weight: 800;
   padding-bottom: 1.2rem;
+  text-transform: capitalize;
 }
 
 .ux-method-blocks {
@@ -206,7 +207,7 @@ li {
 
 .ux-method-block {
   display: block;
-  margin-right: 6.4rem;
+  margin-bottom: 6.4rem;
 }
 
 .ux-method-sub-block {
@@ -223,7 +224,14 @@ li {
   display: block;
   margin-right: 1.2rem;
   padding-bottom: 1.6rem;
-  font-size: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.ux-method-info-paragraph {
+  font-family: 'Nunito Sans', sans-serif;
+  padding-bottom: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.4;
 }
@@ -232,7 +240,7 @@ li {
   font-family: 'Nunito Sans', sans-serif;
   margin-right: 1.2rem;
   padding-bottom: 1.6rem;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.4;
 }
@@ -250,7 +258,7 @@ li {
 
 .excerpt-source {
   color: #8d8d8d;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -277,7 +285,7 @@ li {
   border-radius: 20px;
   background-color: #f9f9f9;
   color: #575755;
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
@@ -432,9 +440,10 @@ li {
 }
 
 .subtitle {
+  font-family: 'Nunito Sans', sans-serif;
   text-transform: capitalize;
   color: #1e1e1e;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: 500;
   margin-bottom: 0.8rem;
 }
@@ -458,14 +467,14 @@ li {
 }
 
 .context-img {
-  width: 39rem;
-  height: 25rem;
+  width: 25rem;
+  height: 20rem;
   margin-right: 2.4rem;
 }
 
 .intro-sentence {
   color: #1e1e1e;
-  font-size: 3.2rem;
+  font-size: 2.6rem;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 3.2rem;
@@ -475,7 +484,7 @@ li {
   margin-bottom: 1.2rem;
   text-transform: capitalize;
   color: rgb(30, 30, 30);
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
@@ -517,7 +526,7 @@ li {
 
 .lists {
   display: block;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 500;
   line-height: 1.6;
@@ -547,7 +556,7 @@ li {
 }
 
 .search-trend {
-  font-size: 3.2rem;
+  font-size: 2.6rem;
   font-weight: 600;
   line-height: 1.1;
   margin-bottom: 0.8rem;
@@ -568,12 +577,8 @@ li {
 /* Previous... */
 
 .project-maintitle {
-  font-size: 5.2rem;
+  font-size: 4.4rem;
   font-weight: 800;
-}
-
-.project-subtitle {
-  font-size: 3.6rem;
 }
 
 .pdf-button {
@@ -606,8 +611,8 @@ li {
 }
 
 .emotions {
-  margin-bottom: 10rem;
-  margin-top: 8rem;
+  margin-bottom: 6.4rem;
+  margin-top: 4rem;
 }
 
 .theory {
@@ -629,7 +634,7 @@ li {
 .trust-info {
   font-family: 'Nunito Sans', sans-serif;
   margin-right: 1.2rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.4;
 }
@@ -662,7 +667,7 @@ li {
 
 /* /////////////// PRODUCT ANALYSIS ///////////////*/
 .intended-process-img {
-  width: 70%;
+  width: 60%;
   display: block;
   margin: 4rem auto;
 }
@@ -672,6 +677,19 @@ li {
   display: block;
   margin: 4rem auto;
 }
+/* /////////////// REDESIGN ///////////////*/
+.steps-block {
+  display: block;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  background-color: #e9e9e3;
+  padding-left: 4rem;
+  /* border-radius: 2.6rem; */
+}
+
+/* /////////////// REFLECTION ///////////////*/
+
+/* /////////////// CONCLUSION */
 
 .conclusion-flexbox {
   display: flex;
@@ -682,4 +700,53 @@ li {
   width: 40%;
   height: 40%;
   border-radius: 36px;
+}
+
+.conclusion-paragraph {
+  display: block;
+  margin-right: 4rem;
+}
+
+.category-button {
+  margin-right: 8px;
+  margin-bottom: 4px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background-color: #e9e9e3;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.user-psych-button {
+  background-color: rgba(232, 121, 86, 0.5);
+}
+
+.design-button {
+  background-color: #e87956;
+  color: #f9f9f9;
+}
+
+.comments-flexbox {
+  display: flex;
+}
+
+.comments-block {
+  display: block;
+  width: 50%;
+  margin-right: 4rem;
+}
+
+.comments-block-sole {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.design-screen {
+  width: 50%;
 }
