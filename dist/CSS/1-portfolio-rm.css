@@ -124,6 +124,11 @@ li {
 
 /* //////////////// ITERATIVE STYLES ////////////////*/
 
+.highlight-sentence {
+  background-color: #d4d4cb;
+  /* background-color: rgba(232, 121, 86, 0.5); */
+}
+
 .capitalize {
   text-transform: capitalize;
 }
@@ -151,21 +156,37 @@ li {
   padding-right: 42rem;
 }
 
-.divider-sentence {
+.divider-sentence-sub {
   display: block;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.6;
   color: #575755;
+  text-transform: capitalize;
 }
 
-.divider-sentence-sub {
+.divider-sentence {
   color: #575755;
-  font-size: 2rem;
+  font-size: 3.2rem;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 3.2rem;
-  margin-bottom: 2.4rem;
+  /* margin-bottom: 2.4rem; */
+}
+
+.divider-sentence-social {
+  color: #f9f9f9;
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 3.2rem;
+}
+
+.section-divider-2 {
+  background-color: #929286;
+  display: block;
+  padding: 4.4rem;
+  margin-top: 10rem;
 }
 
 .section-method {
@@ -179,6 +200,7 @@ li {
   font-size: 4.8rem;
   display: block;
   padding-bottom: 4.4rem;
+  padding-top: 0.8rem;
 }
 
 .title-padding-bottom {
@@ -241,7 +263,7 @@ li {
 .ux-method-info {
   font-family: 'Nunito Sans', sans-serif;
   display: block;
-  margin-right: 1.2rem;
+  /* margin-right: 1.2rem; */
   padding-bottom: 1.6rem;
   font-size: 1.4rem;
   font-weight: 500;
@@ -485,7 +507,7 @@ section {
 
 .context-images {
   display: flex;
-  /* align-content: center; */
+  margin: 0 auto;
 }
 
 .context-img {
@@ -594,6 +616,22 @@ section {
   margin-top: 8rem;
 }
 
+.but-how {
+  display: block;
+  margin-bottom: 10rem;
+  text-transform: capitalize;
+  color: rgb(30, 30, 30);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.trust-work {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 0.8rem;
+}
+
 /* /////////////// THEORY /////////////// */
 
 /* Previous... */
@@ -639,13 +677,6 @@ section {
 
 .theory {
   display: block;
-}
-
-.trust-work {
-  font-size: 2.8rem;
-  font-weight: 600;
-  line-height: 1.1;
-  margin-bottom: 0.8rem;
 }
 
 .trust-infos {
@@ -836,7 +867,7 @@ section {
 
 .painpoint-5-img {
   display: block;
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
 }
 
@@ -845,14 +876,14 @@ section {
   width: 50%;
 }
 
-.comment4-5 {
+.comment4 {
   display: flex;
 }
 
 .comment-4-img {
   display: block;
-  margin-right: 4rem;
-  width: 50%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .comment-5-img {
@@ -887,7 +918,7 @@ section {
   display: block;
   width: 40%;
   height: 40%;
-  border-radius: 36px;
+  border-radius: 26px;
 }
 
 .conclusion-paragraph {
