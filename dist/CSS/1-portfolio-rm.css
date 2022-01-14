@@ -743,12 +743,12 @@ section {
 }
 
 .dantec-process {
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 600;
   line-height: 1.4;
   font-family: 'Nunito Sans', sans-serif;
   text-transform: capitalize;
-  color: #1e1e1e;
+  color: #575755;
 }
 
 .dantec-title {
