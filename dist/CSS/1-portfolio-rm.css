@@ -125,7 +125,8 @@ li {
 /* //////////////// ITERATIVE STYLES ////////////////*/
 
 .highlight-sentence {
-  background-color: #d4d4cb;
+  background-color: rgba(212, 212, 203, 50%);
+  font-weight: 700;
   /* background-color: rgba(232, 121, 86, 0.5); */
 }
 
@@ -632,6 +633,13 @@ section {
   margin-bottom: 0.8rem;
 }
 
+.design-storytelling-sentence {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #1e1e1e;
+  margin-top: 4rem;
+}
+
 /* /////////////// THEORY /////////////// */
 
 /* Previous... */
@@ -796,6 +804,7 @@ section {
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
+  line-height: 1.4;
 }
 
 /* .nextbutton-margin-left {
@@ -873,7 +882,7 @@ section {
 
 .design-screen {
   display: block;
-  width: 50%;
+  width: 60%;
 }
 
 .comment4 {
