@@ -10,6 +10,10 @@ main {
   margin: 0 16rem;
 }
 
+.project-content {
+  margin-bottom: 6.4rem;
+}
+
 .project-name {
   font-size: 3.6rem;
   color: #1e1e1e;
@@ -37,11 +41,12 @@ main {
 }
 
 .project-info {
+  font-family: 'Nunito Sans', sans-serif;
   display: block;
   width: 80%;
   color: #1e1e1e;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.6;
   padding-bottom: 0.8rem;
 }
@@ -81,14 +86,15 @@ main {
 }
 
 .button {
+  font-family: 'Nunito Sans', sans-serif;
   margin-right: 8px;
   margin-bottom: 4px;
   padding: 6px 10px;
   border-radius: 20px;
   background-color: #f9f9f9;
   color: #575755;
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 /* .project-box {
   display: flex;
@@ -105,22 +111,24 @@ main {
 } */
 
 .anchor-to-paper {
+  font-family: baskerville-urw, serif;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 2rem;
   display: block;
-  padding: 2rem;
-  border-radius: 24px;
-  background-color: #f9f9f9;
 }
 
 .anchor-to-paper:link,
 .anchor-to-paper:visited {
   color: #1e1e1e;
+  text-decoration: none;
+  transition: all 0.08s ease-in;
 }
 
 .anchor-to-paper:hover,
 .anchor-to-paper:active {
-  color: #e87956;
+  color: #5aa9e6;
+  -webkit-text-stroke: 0.04rem black;
+  cursor: pointer;
+  text-decoration: none;
 }

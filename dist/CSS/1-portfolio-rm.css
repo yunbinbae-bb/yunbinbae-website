@@ -31,7 +31,7 @@ p {
   color: #575755;
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 li {
@@ -124,9 +124,17 @@ li {
 
 /* //////////////// ITERATIVE STYLES ////////////////*/
 
+blockquote {
+  margin: 0 0 10px 0;
+  padding: 10px 20px;
+  border-left: 5px solid #e2e2e2;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .highlight-sentence {
   background-color: rgba(212, 212, 203, 50%);
-  font-weight: 700;
+  font-weight: 600;
   /* background-color: rgba(232, 121, 86, 0.5); */
 }
 
@@ -270,7 +278,7 @@ li {
   padding-bottom: 1.6rem;
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.8;
 }
 .ux-method-info-paragraph {
   font-family: 'Nunito Sans', sans-serif;
@@ -441,13 +449,24 @@ li {
 .anchor-to-paper {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+  display: block;
+  padding: 2rem;
+  border-radius: 56px;
+  background-color: #f9f9f9;
+}
+
+/* .anchor-to-paper {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 2rem;
   display: block;
   padding: 2rem;
   border-radius: 24px;
   background-color: #f9f9f9;
-}
+} */
 
 .anchor-to-paper:link,
 .anchor-to-paper:visited {
@@ -928,22 +947,32 @@ section {
   margin-bottom: 2rem;
 }
 
+.paragraph-margin-bottom {
+  margin-bottom: 1.2rem;
+}
+
 /* /////////////// REFLECTION ///////////////*/
 
 /* /////////////// CONCLUSION */
 
-.conclusion-flexbox {
-  display: flex;
+.conclusion-grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  grid-template-columns: 5fr 3fr;
 }
 
 .company-img {
   display: block;
-  width: 40%;
-  height: 40%;
-  border-radius: 26px;
+  border-radius: 16px;
 }
 
 .conclusion-paragraph {
   display: block;
   margin-right: 4rem;
+}
+
+.other-articles-links {
+  display: flex;
+  margin-bottom: 1rem;
 }
