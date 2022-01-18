@@ -65,6 +65,7 @@ body {
 .does,
 .product-designer {
   font-size: 10rem;
+
   /* animation: color-change 3s infinite; */
   /* animation: color-change 2s;
   animation-iteration-count: 2; */
@@ -145,9 +146,18 @@ body {
   padding-right: 6.4rem;
 }
 
+/* .product-designer {
+  color: #5aa9e6;
+  -webkit-text-stroke: 0.3rem #5aa9e6;
+} */
+
+.yunbin-bae {
+  color: #fee440;
+  -webkit-text-stroke: 0.2rem black;
+}
+
 .yunbin-bae:link,
 .yunbin-bae:visited {
-  color: #1e1e1e;
   text-decoration: none;
   transition: all 0.08s ease-in;
 }
@@ -186,9 +196,14 @@ body {
   gap: 1rem;
 }
 
-/* .profile-flexbox {
+.profile-flexboxs {
   display: flex;
-} */
+}
+
+.profile-flexbox {
+  display: block;
+  margin-right: 4.2rem;
+}
 
 .location-icon {
   height: 2rem;

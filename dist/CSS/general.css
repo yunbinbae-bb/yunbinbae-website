@@ -53,6 +53,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   background-color: #d4d4cb;
+  /* background-color: #ffe45e; */
   /* DOES NOT work on Safari => write in Javascript..*/
   /* scroll-behavior: smooth; */
 }
@@ -335,6 +336,7 @@ h5 {
 .footer {
   padding: 4.8rem 0 4.8rem 0;
   background-color: #929286;
+  /* background-color: #5aa9e6; */
 }
 
 .footer-logo {

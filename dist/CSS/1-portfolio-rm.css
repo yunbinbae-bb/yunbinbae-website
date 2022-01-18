@@ -448,33 +448,21 @@ blockquote {
 
 .anchor-to-paper {
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 1.3rem;
-  display: block;
-  padding: 2rem;
-  border-radius: 56px;
-  background-color: #f9f9f9;
-}
-
-/* .anchor-to-paper {
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-family: baskerville-urw, serif;
+  font-weight: 500;
   font-size: 2rem;
-  display: block;
   padding: 2rem;
-  border-radius: 24px;
-  background-color: #f9f9f9;
-} */
-
-.anchor-to-paper:link,
-.anchor-to-paper:visited {
-  color: #1e1e1e;
 }
 
-.anchor-to-paper:hover,
-.anchor-to-paper:active {
+.paper-link:link,
+.paper-link:visited {
+  text-decoration: underline;
+  background-color: antiquewhite;
+  color: #eb6641;
+}
+
+.paper-link:hover,
+.paper-link:active {
   color: #eb6641;
 }
 
