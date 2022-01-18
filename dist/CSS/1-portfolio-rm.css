@@ -904,7 +904,14 @@ section {
 
 .design-screen {
   display: block;
+  width: 55%;
+  height: 55%;
+}
+
+.design-prototype {
+  display: block;
   width: 50%;
+  height: 50%;
 }
 
 .comment4 {
