@@ -86,7 +86,7 @@ li {
   text-decoration: none;
   font-weight: 700;
   font-size: 2rem;
-  color: #e87956;
+  color: #eb6641;
   cursor: pointer;
   transition: all 0.08s ease-in-out;
 }
@@ -108,7 +108,7 @@ li {
 .link:hover,
 .link:active {
   text-decoration: none;
-  color: #e87956;
+  color: #eb6641;
   transition: all 0.08s ease-in-out;
 }
 
@@ -227,7 +227,7 @@ blockquote {
 
 .section-name {
   font-family: baskerville-urw, serif;
-  color: #e87956;
+  color: #eb6641;
   font-size: 2rem;
   font-weight: 800;
   padding-bottom: 3.2rem;
@@ -238,7 +238,7 @@ blockquote {
 
 .section-name-design {
   font-family: baskerville-urw, serif;
-  color: #e87956;
+  color: #eb6641;
   font-size: 2rem;
   font-weight: 800;
   margin-top: 14rem;
@@ -361,7 +361,7 @@ blockquote {
 
 .section-project {
   display: block;
-  background-color: #e87956;
+  background-color: #eb6641;
   object-fit: cover;
   width: 100%;
 }
@@ -475,7 +475,7 @@ blockquote {
 
 .anchor-to-paper:hover,
 .anchor-to-paper:active {
-  color: #e87956;
+  color: #eb6641;
 }
 
 .subtitle-margin-top {
@@ -845,7 +845,8 @@ section {
 }
 
 .user-psych-button {
-  background-color: rgba(232, 121, 86, 0.5);
+  background-color: #e26d4c;
+  color: #f9f9f9;
 }
 /* 
 .technical-button {
@@ -853,7 +854,7 @@ section {
 } */
 
 .design-button {
-  background-color: #e87956;
+  background-color: #eb6641;
   color: #f9f9f9;
 }
 
