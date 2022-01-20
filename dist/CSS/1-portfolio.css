@@ -132,3 +132,26 @@ main {
   cursor: pointer;
   text-decoration: none;
 }
+
+.code-project-infos {
+  display: block;
+  padding: 1.2rem;
+}
+
+.code-project-info {
+  display: block;
+  padding: 1.2rem;
+}
+
+.code-project-info:link,
+.code-project-info:visited {
+  text-decoration: none;
+}
+
+.code-project-info:hover,
+.code-project-info:active {
+  color: #5aa9e6;
+  -webkit-text-stroke: 0.04rem black;
+  cursor: pointer;
+  text-decoration: none;
+}
