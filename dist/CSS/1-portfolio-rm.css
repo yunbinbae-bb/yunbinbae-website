@@ -487,6 +487,10 @@ section {
   margin-bottom: 16rem;
 } */
 
+.prototype-youtube {
+  text-align: center;
+}
+
 .overview-blocks {
   display: flex;
 }
