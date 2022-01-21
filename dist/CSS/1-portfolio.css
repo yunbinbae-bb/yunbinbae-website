@@ -77,12 +77,14 @@ main {
 
 .project-focus-areas {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .project-focus-area {
   display: block;
   font-size: 1.2rem;
   font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 0;
 }
 
 .button {
@@ -91,23 +93,15 @@ main {
   margin-bottom: 4px;
   padding: 6px 10px;
   border-radius: 20px;
-  background-color: #f9f9f9;
-  color: #575755;
+  background-color: #1e1e1e;
+  color: #fff;
   font-size: 1.4rem;
   font-weight: 400;
 }
-/* .project-box {
-  display: flex;
-  text-decoration: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.06);
-  justify-content: space-between;
-  padding: 3.6rem;
-  border-radius: 2.4rem;
-  margin-bottom: 9.6rem;
-} */
 
-/* .project-box:hover {
-  transform: scale(1.01);
+/* .display-block {
+  display: block;
+  margin-bottom: 1.2rem;
 } */
 
 .anchor-to-paper {

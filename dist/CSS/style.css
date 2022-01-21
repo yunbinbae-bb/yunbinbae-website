@@ -196,15 +196,6 @@ body {
   gap: 1rem;
 }
 
-.profile-flexboxs {
-  display: flex;
-}
-
-.profile-flexbox {
-  display: block;
-  margin-right: 4.2rem;
-}
-
 .location-icon {
   height: 2rem;
   width: 2rem;
@@ -224,10 +215,45 @@ body {
 /* ************************************ */
 /* PROFILE SECTION */
 /* ************************************ */
+
 .section-profile {
   padding-bottom: 4.8rem;
-  padding-left: 6.4rem;
-  padding-right: 6.4rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
+}
+
+.profile-grid-flex {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.profile-flex {
+  display: block;
+}
+
+.sns-link {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.sns-link:link,
+.sns-link:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #1e1e1e;
+  transition: all 0.08s ease-in;
+}
+
+.sns-link:hover,
+.sns-link:active {
+  color: #ff6392;
+}
+
+.profile-explain {
+  font-family: baskerville-urw, serif;
+  font-weight: 500;
 }
 
 /* ************************************ */
@@ -325,10 +351,4 @@ body {
   border-radius: 4.6rem;
   padding-left: 6.4rem;
   padding-bottom: 6.4rem;
-}
-
-.profile-img-square {
-  width: 8%;
-  /* text-align: center; */
-  /* display: block; */
 }
