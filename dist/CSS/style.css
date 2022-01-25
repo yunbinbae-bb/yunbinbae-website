@@ -229,6 +229,7 @@ body {
 
 .profile-flex {
   display: block;
+  width: 50rem;
 }
 
 .sns-link {
