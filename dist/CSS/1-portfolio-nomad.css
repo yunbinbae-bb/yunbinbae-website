@@ -86,7 +86,7 @@ li {
   text-decoration: none;
   font-weight: 700;
   font-size: 2rem;
-  color: #f0c93f;
+  color: #41c78d;
   cursor: pointer;
   transition: all 0.08s ease-in-out;
 }
@@ -108,7 +108,7 @@ li {
 .link:hover,
 .link:active {
   text-decoration: none;
-  color: #f0c93f;
+  color: #41c78d;
   transition: all 0.08s ease-in-out;
 }
 
@@ -171,7 +171,7 @@ li {
 
 .section-name {
   font-family: baskerville-urw, serif;
-  color: #f0c93f;
+  color: #41c78d;
   font-size: 2rem;
   font-weight: 800;
   padding-bottom: 3.2rem;
@@ -329,7 +329,7 @@ li {
 
 .section-project {
   display: block;
-  background-color: #ffe178;
+  background-color: #41c78d;
   object-fit: cover;
   width: 100%;
 }
@@ -647,5 +647,5 @@ li {
 }
 
 .touch {
-  background-color: #ffe178;
+  background-color: #41c78d;
 }
