@@ -296,7 +296,7 @@ body {
 
 .project-name:hover,
 .project-name:active {
-  color: #5aa9e6;
+  color: #ffe45e;
   -webkit-text-stroke: 0.08rem black;
   cursor: pointer;
   text-decoration: none;

@@ -34,7 +34,7 @@ main {
 
 .project-name:hover,
 .project-name:active {
-  color: #5aa9e6;
+  color: #ffe45e;
   -webkit-text-stroke: 0.08rem black;
   cursor: pointer;
   text-decoration: none;
@@ -121,7 +121,7 @@ main {
 
 .anchor-to-paper:hover,
 .anchor-to-paper:active {
-  color: #5aa9e6;
+  color: #ffe45e;
   -webkit-text-stroke: 0.04rem black;
   cursor: pointer;
   text-decoration: none;
@@ -144,7 +144,7 @@ main {
 
 .code-project-info:hover,
 .code-project-info:active {
-  color: #5aa9e6;
+  color: #ffe45e;
   -webkit-text-stroke: 0.04rem black;
   cursor: pointer;
   text-decoration: none;
