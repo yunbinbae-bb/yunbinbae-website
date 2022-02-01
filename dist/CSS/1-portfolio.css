@@ -35,7 +35,7 @@ main {
 .project-name:hover,
 .project-name:active {
   color: #ffe45e;
-  -webkit-text-stroke: 0.08rem black;
+  -webkit-text-stroke: 0.15rem black;
   cursor: pointer;
   text-decoration: none;
 }
