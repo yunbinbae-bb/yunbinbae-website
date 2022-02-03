@@ -26,6 +26,10 @@
   border-radius: 1rem;
 }
 
+.lab-projects-padding {
+  padding: 0 0 12.8rem 0;
+}
+
 .lab-project {
   text-decoration: none;
   /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.04); */
