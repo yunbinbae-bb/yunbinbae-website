@@ -222,6 +222,10 @@ body {
   padding-right: 18rem;
 }
 
+.profile-img-small {
+  border-radius: 1.8rem;
+}
+
 .profile-grid-flex {
   display: flex;
   margin-right: 2rem;
@@ -255,6 +259,11 @@ body {
 .profile-explain {
   font-family: baskerville-urw, serif;
   font-weight: 500;
+}
+
+.profile-explain-sentence {
+  font-weight: 800;
+  font-size: 1.8rem;
 }
 
 /* ************************************ */
