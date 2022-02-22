@@ -132,6 +132,10 @@ blockquote {
   line-height: 22px;
 }
 
+.update-highlight {
+  color: #eb6641;
+}
+
 .highlight-sentence {
   background-color: rgba(212, 212, 203, 50%);
   font-weight: 600;
@@ -984,4 +988,22 @@ section {
 .other-articles-links {
   display: flex;
   margin-bottom: 1rem;
+}
+
+.other-articles-link:link,
+.other-articles-link:visited {
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: #eb6641;
+  transition: all 0.08s ease-in-out;
+}
+
+.other-articles-link:hover,
+.other-articles-link:active {
+  text-decoration: underline;
+  background-color: antiquewhite;
+  color: #eb6641;
+  cursor: pointer;
+  transition: all 0.08s ease-in-out;
 }
