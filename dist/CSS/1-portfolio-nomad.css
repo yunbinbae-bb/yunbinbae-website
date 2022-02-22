@@ -565,6 +565,11 @@ li {
   font-weight: 700;
 }
 
+.highlight-sentence {
+  background-color: rgba(212, 212, 203, 50%);
+  font-weight: 600;
+}
+
 .ux-method-blocks {
   padding-bottom: 9.6rem;
 }
@@ -648,4 +653,11 @@ li {
 
 .touch {
   background-color: #41c78d;
+}
+
+.further-discussion {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
