@@ -46,3 +46,19 @@
 .love img:hover {
   transform: scale(2);
 }
+
+.link:link,
+.link:visited {
+  color: #5aa9e6;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: all 0.08s ease-in;
+}
+
+.link:hover,
+.link:active {
+  color: #ff6392;
+  cursor: pointer;
+  transition: all 0.08s ease-in;
+}
