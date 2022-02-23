@@ -53,6 +53,16 @@ p {
   margin-bottom: 2.4rem;
 }
 
+.interests-music {
+  display: block;
+  padding: 12rem;
+}
+
+.interests-book {
+  display: block;
+  padding: 12rem;
+}
+
 .interests-contents {
   margin-bottom: 8rem;
   display: flex;
@@ -97,9 +107,4 @@ p {
 
 img {
   display: block;
-}
-
-.interests-book {
-  display: block;
-  padding: 6rem;
 }
